@@ -1,0 +1,18 @@
+{
+  "name": "WebTutor - 영어/일본어 회화 튜터",
+  "short_name": "WebTutor",
+  "description": "Web Speech API 기반의 300문항 무료 오프라인 영어/일본어 회화 튜터",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
