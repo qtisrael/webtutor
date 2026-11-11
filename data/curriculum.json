@@ -1,0 +1,3645 @@
+[
+  {
+    "Id": "anki_4000_words_sh_001",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The woman was afraid of what she saw in the dark.",
+    "ModelAnswer": "The woman was afraid of what she saw in the dark.",
+    "KoreanTranslation": "그 여자는 어둠 속에서 본 것을 두려워했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_002",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The food is very good in that restaurant. I agree with you.",
+    "ModelAnswer": "The food is very good in that restaurant. I agree with you.",
+    "KoreanTranslation": "그 식당 음식은 아주 맛있어요. 저도 동의합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_003",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "She didn't do her homework, so her father was angry.",
+    "ModelAnswer": "She didn't do her homework, so her father was angry.",
+    "KoreanTranslation": "그녀가 숙제를 하지 않아서 아버지가 화가 났습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_004",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The bus always arrives at the corner of my street on time.",
+    "ModelAnswer": "The bus always arrives at the corner of my street on time.",
+    "KoreanTranslation": "버스는 항상 정각에 우리 골목 모퉁이에 도착합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_005",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The guard dog will protect the house if anyone attacks.",
+    "ModelAnswer": "The guard dog will protect the house if anyone attacks.",
+    "KoreanTranslation": "누군가 공격하면 경비견이 집을 지킬 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_006",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The coins fell to the bottom of the deep ocean.",
+    "ModelAnswer": "The coins fell to the bottom of the deep ocean.",
+    "KoreanTranslation": "동전들이 깊은 바다 밑바닥으로 떨어졌습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_007",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The clever boy was able to solve the difficult puzzle quickly.",
+    "ModelAnswer": "The clever boy was able to solve the difficult puzzle quickly.",
+    "KoreanTranslation": "그 영리한 소년은 어려운 퍼즐을 빠르게 풀 수 있었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_008",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The cruel man treated the stray dog very badly.",
+    "ModelAnswer": "The cruel man treated the stray dog very badly.",
+    "KoreanTranslation": "그 잔인한 남자는 유기견을 몹시 나쁘게 대했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_009",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "After working hard all day, they finally finished the project.",
+    "ModelAnswer": "After working hard all day, they finally finished the project.",
+    "KoreanTranslation": "하루 종일 열심히 일한 끝에 마침내 프로젝트를 마쳤습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_010",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The children love to play hide and seek in the garden.",
+    "ModelAnswer": "The children love to play hide and seek in the garden.",
+    "KoreanTranslation": "아이들은 정원에서 숨바꼭질하는 것을 좋아합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_011",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Long ago, people had to hunt wild animals for food.",
+    "ModelAnswer": "Long ago, people had to hunt wild animals for food.",
+    "KoreanTranslation": "오래전에 사람들은 식량을 얻기 위해 야생 동물을 사냥해야 했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_012",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "There are a lot of interesting books in the local library.",
+    "ModelAnswer": "There are a lot of interesting books in the local library.",
+    "KoreanTranslation": "동네 도서관에는 흥미로운 책들이 많이 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_013",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "He was standing in the middle of the crowded room.",
+    "ModelAnswer": "He was standing in the middle of the crowded room.",
+    "KoreanTranslation": "그는 붐비는 방 한가운데에 서 있었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_014",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "I was only away for a moment, but everything had changed.",
+    "ModelAnswer": "I was only away for a moment, but everything had changed.",
+    "KoreanTranslation": "잠시 자리를 비웠을 뿐인데 모든 것이 바뀌어 있었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_015",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "She made a promise to call her parents every weekend.",
+    "ModelAnswer": "She made a promise to call her parents every weekend.",
+    "KoreanTranslation": "그녀는 매주 주말마다 부모님께 전화하기로 약속했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_016",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "He looked at my text message but did not reply right away.",
+    "ModelAnswer": "He looked at my text message but did not reply right away.",
+    "KoreanTranslation": "그는 내 문자 메시지를 보았지만 바로 답장하지 않았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_017",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Fasten your seatbelt to keep yourself safe while driving.",
+    "ModelAnswer": "Fasten your seatbelt to keep yourself safe while driving.",
+    "KoreanTranslation": "운전 중에는 안전을 위해 안전벨트를 매세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_018",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The magician performed an amazing card trick on the stage.",
+    "ModelAnswer": "The magician performed an amazing card trick on the stage.",
+    "KoreanTranslation": "마술사는 무대에서 놀라운 카드 마술을 선보였습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_019",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The speaker explained the complicated topic very well.",
+    "ModelAnswer": "The speaker explained the complicated topic very well.",
+    "KoreanTranslation": "발표자는 복잡한 주제를 아주 잘 설명했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_020",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Riding a hot air balloon was an unforgettable adventure for us.",
+    "ModelAnswer": "Riding a hot air balloon was an unforgettable adventure for us.",
+    "KoreanTranslation": "열기구를 탄 것은 우리에게 잊을 수 없는 모험이었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_021",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "She washed the fresh apples and put them on the table.",
+    "ModelAnswer": "She washed the fresh apples and put them on the table.",
+    "KoreanTranslation": "그녀는 신선한 사과를 씻어 식탁 위에 올려놓았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_022",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "They walked through the quiet forest early in the morning.",
+    "ModelAnswer": "They walked through the quiet forest early in the morning.",
+    "KoreanTranslation": "그들은 이른 아침에 조용한 숲길을 걸었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_023",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The little girl held her father's hand tightly while crossing.",
+    "ModelAnswer": "The little girl held her father's hand tightly while crossing.",
+    "KoreanTranslation": "어린 소녀는 길을 건너는 동안 아버지의 손을 꼭 잡았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_024",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Please turn on the desk lamp so we can read clearly.",
+    "ModelAnswer": "Please turn on the desk lamp so we can read clearly.",
+    "KoreanTranslation": "선명하게 읽을 수 있도록 책상 스탠드를 켜주세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_025",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "We bought a warm winter coat before the first snow fell.",
+    "ModelAnswer": "We bought a warm winter coat before the first snow fell.",
+    "KoreanTranslation": "우리는 첫눈이 내리기 전에 따뜻한 겨울 코트를 샀습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_qa_001",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why was her father so angry yesterday evening?",
+    "ModelAnswer": "He was angry because she didn't finish her homework.",
+    "KoreanTranslation": "어제 저녁에 그녀의 아버지는 왜 그렇게 화가 나셨나요?",
+    "RequiredKeywords": [
+      "angry",
+      "homework",
+      "finish",
+      "didn't",
+      "because"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_002",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What do you say when you have the same opinion as someone else?",
+    "ModelAnswer": "I tell them that I agree with their opinion completely.",
+    "KoreanTranslation": "다른 사람과 같은 의견일 때 무엇이라고 말하나요?",
+    "RequiredKeywords": [
+      "agree",
+      "opinion",
+      "think",
+      "same",
+      "yes"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_003",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What time does the city bus arrive at the central station?",
+    "ModelAnswer": "The bus arrives at four o'clock in the afternoon.",
+    "KoreanTranslation": "시내버스는 언제 중앙역에 도착하나요?",
+    "RequiredKeywords": [
+      "bus",
+      "arrives",
+      "arrive",
+      "four",
+      "afternoon",
+      "station"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_004",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What kind of game do the children like to play in the park?",
+    "ModelAnswer": "They love to play hide and seek together in the park.",
+    "KoreanTranslation": "아이들은 공원에서 어떤 놀이를 즐겨 하나요?",
+    "RequiredKeywords": [
+      "hide",
+      "seek",
+      "play",
+      "game",
+      "children",
+      "park"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_005",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What should you always do before you start driving your car?",
+    "ModelAnswer": "I should always fasten my seatbelt to stay safe.",
+    "KoreanTranslation": "차량을 운전하기 전에 항상 무엇을 해야 하나요?",
+    "RequiredKeywords": [
+      "fasten",
+      "seatbelt",
+      "safe",
+      "buckle",
+      "belt"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_006",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Did he reply to your important text message yesterday?",
+    "ModelAnswer": "No, he read the message but did not reply right away.",
+    "KoreanTranslation": "그가 어제 당신의 중요한 문자 메시지에 답장했나요?",
+    "RequiredKeywords": [
+      "reply",
+      "replied",
+      "message",
+      "text",
+      "didn't",
+      "not"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_007",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Where did you put the fresh apples after washing them?",
+    "ModelAnswer": "I washed the apples and put them on the kitchen table.",
+    "KoreanTranslation": "사과를 씻은 후 어디에 두었나요?",
+    "RequiredKeywords": [
+      "table",
+      "kitchen",
+      "put",
+      "apples",
+      "washed"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_008",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why did you buy that thick coat yesterday?",
+    "ModelAnswer": "I bought it to stay warm during the cold winter.",
+    "KoreanTranslation": "어제 왜 그 두꺼운 코트를 샀나요?",
+    "RequiredKeywords": [
+      "warm",
+      "winter",
+      "cold",
+      "coat",
+      "bought"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_009",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Can you help me turn on the reading lamp over there?",
+    "ModelAnswer": "Sure, I will turn on the lamp so you can read comfortably.",
+    "KoreanTranslation": "저쪽에 있는 독서등을 켜주시겠어요?",
+    "RequiredKeywords": [
+      "turn on",
+      "lamp",
+      "sure",
+      "read",
+      "light"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_010",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Who did the little girl walk with across the road?",
+    "ModelAnswer": "She held her father's hand and walked across safely.",
+    "KoreanTranslation": "어린 소녀는 누구와 함께 길을 건넜나요?",
+    "RequiredKeywords": [
+      "father",
+      "hand",
+      "held",
+      "walked",
+      "safely"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_001",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "You can turn off the radio now. I'm not listening to it.",
+    "ModelAnswer": "You can turn off the radio now. I'm not listening to it.",
+    "KoreanTranslation": "이제 라디오를 끄셔도 돼요. 전 안 듣고 있거든요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_002",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Kate phoned me last night. She's on holiday and having a great time.",
+    "ModelAnswer": "Kate phoned me last night. She's on holiday and having a great time.",
+    "KoreanTranslation": "케이트가 어젯밤에 전화했어요. 그녀는 휴가 중이고 즐거운 시간을 보내고 있대요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_003",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Andrew started evening classes recently. He's learning Japanese.",
+    "ModelAnswer": "Andrew started evening classes recently. He's learning Japanese.",
+    "KoreanTranslation": "앤드루는 최근에 저녁 강좌를 시작했습니다. 그는 일본어를 배우고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_004",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Paul and Sarah had an argument. They're not speaking to each other.",
+    "ModelAnswer": "Paul and Sarah had an argument. They're not speaking to each other.",
+    "KoreanTranslation": "폴과 사라는 말다툼을 했습니다. 그들은 서로 말을 하지 않고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_005",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "I'm looking for Sophie. Do you know where she went?",
+    "ModelAnswer": "I'm looking for Sophie. Do you know where she went?",
+    "KoreanTranslation": "소피를 찾고 있어요. 그녀가 어디로 갔는지 아시나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_006",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "This light isn't working properly. What's wrong with it?",
+    "ModelAnswer": "This light isn't working properly. What's wrong with it?",
+    "KoreanTranslation": "이 조명이 제대로 작동하지 않아요. 뭐가 문제일까요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_007",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "I'm trying to find a new job, but it is not easy right now.",
+    "ModelAnswer": "I'm trying to find a new job, but it is not easy right now.",
+    "KoreanTranslation": "새 직장을 구하려고 노력 중이지만, 지금은 쉽지 않네요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_008",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "They're building a new hospital in the center of the city.",
+    "ModelAnswer": "They're building a new hospital in the center of the city.",
+    "KoreanTranslation": "그들은 도시 중심부에 새로운 병원을 짓고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_009",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "What's the matter with you? Why are you crying so much?",
+    "ModelAnswer": "What's the matter with you? Why are you crying so much?",
+    "KoreanTranslation": "무슨 일 있나요? 왜 그렇게 많이 울고 계세요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_010",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Where's your mother right now? Is she working in her office?",
+    "ModelAnswer": "Where's your mother right now? Is she working in her office?",
+    "KoreanTranslation": "어머니는 지금 어디에 계시나요? 사무실에서 일하고 계신가요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_011",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Which hotel are your friends staying at during their vacation?",
+    "ModelAnswer": "Which hotel are your friends staying at during their vacation?",
+    "KoreanTranslation": "친구분들은 휴가 동안 어느 호텔에 묵고 계신가요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_012",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The weather was terrible yesterday, so we didn't go out at all.",
+    "ModelAnswer": "The weather was terrible yesterday, so we didn't go out at all.",
+    "KoreanTranslation": "어제 날씨가 너무 나빠서 우리는 전혀 외출하지 않았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_013",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "I usually drive to work, but today I am walking because the sun is shining.",
+    "ModelAnswer": "I usually drive to work, but today I am walking because the sun is shining.",
+    "KoreanTranslation": "보통 차로 출근하지만, 오늘은 해가 화창해서 걸어가고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_014",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "He couldn't come to the party because he was feeling sick.",
+    "ModelAnswer": "He couldn't come to the party because he was feeling sick.",
+    "KoreanTranslation": "그는 몸이 아파서 파티에 올 수 없었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_015",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "How long have you been studying English at this language academy?",
+    "ModelAnswer": "How long have you been studying English at this language academy?",
+    "KoreanTranslation": "이 어학원에서 영어를 공부한 지 얼마나 되셨나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_016",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "She speaks three foreign languages fluently including Spanish and French.",
+    "ModelAnswer": "She speaks three foreign languages fluently including Spanish and French.",
+    "KoreanTranslation": "그녀는 스페인어와 프랑스어를 포함해 세 개의 외국어를 유창하게 구사합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_017",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Don't make noise while the baby is sleeping in the bedroom.",
+    "ModelAnswer": "Don't make noise while the baby is sleeping in the bedroom.",
+    "KoreanTranslation": "아기가 침실에서 자고 있는 동안 소리를 내지 마세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_018",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "I have never visited London, but I hope to go there someday.",
+    "ModelAnswer": "I have never visited London, but I hope to go there someday.",
+    "KoreanTranslation": "런던에 가본 적은 없지만, 언젠가 꼭 가보고 싶습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_019",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "The train to Oxford leaves from platform four in ten minutes.",
+    "ModelAnswer": "The train to Oxford leaves from platform four in ten minutes.",
+    "KoreanTranslation": "옥스퍼드행 기차는 10분 후에 4번 승강장에서 출발합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_020",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Could you please turn down the volume of the television?",
+    "ModelAnswer": "Could you please turn down the volume of the television?",
+    "KoreanTranslation": "텔레비전 볼륨을 조금만 낮춰 주시겠어요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_021",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "My alarm clock rings loudly every weekday morning at seven.",
+    "ModelAnswer": "My alarm clock rings loudly every weekday morning at seven.",
+    "KoreanTranslation": "제 알람 시계는 평일 아침마다 7시에 크게 울립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_022",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "She made a hot cup of lemon tea to soothe her throat.",
+    "ModelAnswer": "She made a hot cup of lemon tea to soothe her throat.",
+    "KoreanTranslation": "그녀는 목을 진정시키기 위해 따뜻한 레몬차 한 잔을 탔습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_023",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "Can you lend me an umbrella until tomorrow morning?",
+    "ModelAnswer": "Can you lend me an umbrella until tomorrow morning?",
+    "KoreanTranslation": "내일 아침까지 우산 하나 빌려주실 수 있나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_024",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "He always eats a bowl of oatmeal and fruit for breakfast.",
+    "ModelAnswer": "He always eats a bowl of oatmeal and fruit for breakfast.",
+    "KoreanTranslation": "그는 아침 식사로 항상 오트밀 한 그릇과 과일을 먹습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_sh_025",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "We should hurry up or we will miss the last movie screening.",
+    "ModelAnswer": "We should hurry up or we will miss the last movie screening.",
+    "KoreanTranslation": "서둘러야 해요, 그렇지 않으면 마지막 영화 상영을 놓칠 거예요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_001",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "May I turn off the radio in the living room now?",
+    "ModelAnswer": "Yes, you can turn off the radio. I am not listening to it.",
+    "KoreanTranslation": "이제 거실에 있는 라디오를 꺼도 될까요?",
+    "RequiredKeywords": [
+      "turn off",
+      "radio",
+      "listening",
+      "not",
+      "yes"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_002",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Did Kate call you last night, and how is her holiday trip going?",
+    "ModelAnswer": "Yes, Kate phoned me. She's on holiday and having a great time.",
+    "KoreanTranslation": "케이트가 어젯밤 전화했나요? 휴가 여행은 잘 보내고 있나요?",
+    "RequiredKeywords": [
+      "kate",
+      "phoned",
+      "called",
+      "holiday",
+      "great time"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_003",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What kind of evening classes did Andrew start attending recently?",
+    "ModelAnswer": "Andrew started evening classes because he's learning Japanese.",
+    "KoreanTranslation": "앤드루는 최근에 어떤 저녁 강좌를 듣기 시작했나요?",
+    "RequiredKeywords": [
+      "classes",
+      "evening",
+      "japanese",
+      "learning",
+      "started"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_004",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why aren't Paul and Sarah talking to each other today?",
+    "ModelAnswer": "They had an argument, so they are not speaking to each other.",
+    "KoreanTranslation": "폴과 사라는 오늘 왜 서로 말을 하지 않고 있나요?",
+    "RequiredKeywords": [
+      "argument",
+      "speaking",
+      "talking",
+      "quarrel",
+      "angry"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_005",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What's the matter? Why are you crying so hard?",
+    "ModelAnswer": "I am crying because I lost my favorite wallet and keys.",
+    "KoreanTranslation": "무슨 일이에요? 왜 그렇게 심하게 울고 계신가요?",
+    "RequiredKeywords": [
+      "crying",
+      "lost",
+      "wallet",
+      "matter",
+      "sad",
+      "because"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_006",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Where is your mother right now, and is she busy working?",
+    "ModelAnswer": "Yes, she is working at her downtown medical office.",
+    "KoreanTranslation": "어머니는 지금 어디에 계시며, 바쁘게 일하고 계신가요?",
+    "RequiredKeywords": [
+      "working",
+      "mother",
+      "office",
+      "she is",
+      "downtown",
+      "clinic"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_007",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Which hotel are your visiting friends staying at this week?",
+    "ModelAnswer": "They are staying at the Grand Hotel near the city hall.",
+    "KoreanTranslation": "방문한 친구들은 이번 주에 어느 호텔에 묵고 있나요?",
+    "RequiredKeywords": [
+      "hotel",
+      "staying",
+      "stay",
+      "grand",
+      "city"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_008",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why did you walk to work today instead of driving your car?",
+    "ModelAnswer": "I walked today because the weather is warm and the sun is shining.",
+    "KoreanTranslation": "오늘 차를 운전하지 않고 왜 걸어서 출근하셨나요?",
+    "RequiredKeywords": [
+      "walked",
+      "walking",
+      "sun",
+      "weather",
+      "shining",
+      "warm"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_009",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Which platform does the next express train to Oxford leave from?",
+    "ModelAnswer": "The train leaves from platform four in about ten minutes.",
+    "KoreanTranslation": "옥스퍼드행 다음 급행열차는 몇 번 승강장에서 출발하나요?",
+    "RequiredKeywords": [
+      "leaves",
+      "platform",
+      "four",
+      "train",
+      "ten",
+      "minutes"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_010",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Could you please lower the television volume a little bit?",
+    "ModelAnswer": "Certainly, I will turn down the television volume right away.",
+    "KoreanTranslation": "텔레비전 볼륨을 조금만 낮춰 주실 수 있나요?",
+    "RequiredKeywords": [
+      "turn down",
+      "volume",
+      "television",
+      "tv",
+      "lower",
+      "certainly"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_011",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What time does your morning alarm usually go off?",
+    "ModelAnswer": "My alarm goes off every weekday morning at seven o'clock.",
+    "KoreanTranslation": "아침 알람은 보통 몇 시에 울리나요?",
+    "RequiredKeywords": [
+      "alarm",
+      "seven",
+      "morning",
+      "rings",
+      "weekday"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_012",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "What do you typically eat for breakfast on weekdays?",
+    "ModelAnswer": "I usually eat a bowl of healthy oatmeal and fresh fruits.",
+    "KoreanTranslation": "평일 아침 식사로는 보통 무엇을 드시나요?",
+    "RequiredKeywords": [
+      "oatmeal",
+      "breakfast",
+      "fruits",
+      "healthy",
+      "eat"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_013",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why are we in such a rush right now?",
+    "ModelAnswer": "We need to hurry so we don't miss the last movie tonight.",
+    "KoreanTranslation": "우리는 지금 왜 그렇게 서두르고 있나요?",
+    "RequiredKeywords": [
+      "hurry",
+      "movie",
+      "miss",
+      "last",
+      "screening"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_014",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Why did she make that warm cup of tea this afternoon?",
+    "ModelAnswer": "She made hot lemon tea to soothe her irritated throat.",
+    "KoreanTranslation": "그녀는 오늘 오후에 왜 따뜻한 차를 탔나요?",
+    "RequiredKeywords": [
+      "tea",
+      "throat",
+      "lemon",
+      "warm",
+      "soothe"
+    ]
+  },
+  {
+    "Id": "anki_grammar_exercises_qa_015",
+    "Language": 0,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "Can you lend me your spare umbrella for the rainy afternoon?",
+    "ModelAnswer": "Sure, you can take my spare umbrella and return it tomorrow.",
+    "KoreanTranslation": "비 오는 오후에 여분의 우산을 빌려주실 수 있나요?",
+    "RequiredKeywords": [
+      "umbrella",
+      "lend",
+      "sure",
+      "take",
+      "tomorrow"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_sh_026",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The ancient stone bridge has connected the two villages for centuries.",
+    "ModelAnswer": "The ancient stone bridge has connected the two villages for centuries.",
+    "KoreanTranslation": "그 고대 돌다리는 수세기 동안 두 마을을 연결해 왔습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_027",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "He apologized sincerely for arriving late to the morning conference.",
+    "ModelAnswer": "He apologized sincerely for arriving late to the morning conference.",
+    "KoreanTranslation": "그는 아침 콘퍼런스에 늦게 도착한 것에 대해 진심으로 사과했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_028",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The scientist made a remarkable discovery after years of research.",
+    "ModelAnswer": "The scientist made a remarkable discovery after years of research.",
+    "KoreanTranslation": "그 과학자는 수년간의 연구 끝에 놀라운 발견을 해냈습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_029",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "She managed to overcome her anxiety before the big piano concert.",
+    "ModelAnswer": "She managed to overcome her anxiety before the big piano concert.",
+    "KoreanTranslation": "그녀는 대형 피아노 연주회를 앞두고 불안감을 극복해 냈습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_030",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The government decided to invest more resources in public education.",
+    "ModelAnswer": "The government decided to invest more resources in public education.",
+    "KoreanTranslation": "정부는 공교육에 더 많은 자원을 투자하기로 결정했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_031",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "His positive attitude inspired all the other members of our team.",
+    "ModelAnswer": "His positive attitude inspired all the other members of our team.",
+    "KoreanTranslation": "그의 긍정적인 태도는 우리 팀의 다른 모든 멤버들에게 영감을 주었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_032",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "We should consider all available options before reaching a final conclusion.",
+    "ModelAnswer": "We should consider all available options before reaching a final conclusion.",
+    "KoreanTranslation": "최종 결론에 도달하기 전에 가능한 모든 선택지를 고려해야 합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_033",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The museum displays valuable artifacts from ancient Mediterranean civilizations.",
+    "ModelAnswer": "The museum displays valuable artifacts from ancient Mediterranean civilizations.",
+    "KoreanTranslation": "그 박물관은 고대 지중해 문명의 귀중한 유물들을 전시하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_034",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "She demonstrated exceptional leadership skills during the crisis.",
+    "ModelAnswer": "She demonstrated exceptional leadership skills during the crisis.",
+    "KoreanTranslation": "그녀는 위기 상황에서 탁월한 리더십 역량을 발휘했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_035",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The flight was delayed due to severe weather conditions over the mountains.",
+    "ModelAnswer": "The flight was delayed due to severe weather conditions over the mountains.",
+    "KoreanTranslation": "산간 지역의 심각한 기상 악화로 인해 항공편이 지연되었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_036",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "They organized a charity fundraising event to support local orphanages.",
+    "ModelAnswer": "They organized a charity fundraising event to support local orphanages.",
+    "KoreanTranslation": "그들은 지역 고아원들을 지원하기 위해 자선 모금 행사를 조직했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_037",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "He was praised for his outstanding contributions to biomedical research.",
+    "ModelAnswer": "He was praised for his outstanding contributions to biomedical research.",
+    "KoreanTranslation": "그는 생리의학 연구에 기여한 뛰어난 공로로 칭찬을 받았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_038",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Regular exercise and proper nutrition are essential for maintaining health.",
+    "ModelAnswer": "Regular exercise and proper nutrition are essential for maintaining health.",
+    "KoreanTranslation": "규칙적인 운동과 적절한 영양 섭취는 건강 유지에 필수적입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_039",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The young artist captured the beauty of the autumn sunset perfectly.",
+    "ModelAnswer": "The young artist captured the beauty of the autumn sunset perfectly.",
+    "KoreanTranslation": "그 젊은 예술가는 가을 노을의 아름다움을 완벽하게 포착했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_040",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "He expressed gratitude to everyone who supported him during difficult times.",
+    "ModelAnswer": "He expressed gratitude to everyone who supported him during difficult times.",
+    "KoreanTranslation": "그는 어려운 시기에 자신을 응원해 준 모든 사람에게 감사를 표했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_041",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The new mobile application allows users to track their daily expenses easily.",
+    "ModelAnswer": "The new mobile application allows users to track their daily expenses easily.",
+    "KoreanTranslation": "새로운 모바일 앱을 통해 사용자는 일일 지출을 쉽게 추적할 수 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_042",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "She politely declined the invitation because she had a previous appointment.",
+    "ModelAnswer": "She politely declined the invitation because she had a previous appointment.",
+    "KoreanTranslation": "그녀는 선약이 있었기 때문에 그 초대를 정중히 거절했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_043",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The sudden storm caused severe damage to the coastal fishing village.",
+    "ModelAnswer": "The sudden storm caused severe damage to the coastal fishing village.",
+    "KoreanTranslation": "갑작스러운 폭풍으로 인해 해안가 어촌 마을에 심각한 피해가 발생했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_044",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "They reached an agreement after hours of intense negotiations.",
+    "ModelAnswer": "They reached an agreement after hours of intense negotiations.",
+    "KoreanTranslation": "그들은 몇 시간 동안의 치열한 협상 끝에 합의에 도달했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_sh_045",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "It requires great patience and discipline to master a musical instrument.",
+    "ModelAnswer": "It requires great patience and discipline to master a musical instrument.",
+    "KoreanTranslation": "악기를 완전히 익히는 데는 엄청난 인내와 훈련이 필요합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_4000_words_qa_011",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why did he apologize so sincerely to the conference committee?",
+    "ModelAnswer": "He apologized because he arrived late due to heavy traffic.",
+    "KoreanTranslation": "그는 왜 콘퍼런스 위원회에 진심으로 사과했나요?",
+    "RequiredKeywords": [
+      "apologized",
+      "late",
+      "traffic",
+      "conference",
+      "because"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_012",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What did the research team discover after five years of study?",
+    "ModelAnswer": "They made a remarkable scientific discovery about human genetics.",
+    "KoreanTranslation": "연구팀은 5년간의 연구 끝에 무엇을 발견했나요?",
+    "RequiredKeywords": [
+      "discovery",
+      "remarkable",
+      "scientific",
+      "study",
+      "research"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_013",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "How did she handle her nervousness before the piano concert?",
+    "ModelAnswer": "She took deep breaths and overcame her performance anxiety.",
+    "KoreanTranslation": "그녀는 피아노 연주회 전 긴장감을 어떻게 다스렸나요?",
+    "RequiredKeywords": [
+      "anxiety",
+      "overcame",
+      "nervous",
+      "concert",
+      "piano"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_014",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What is the main advantage of the new mobile banking app?",
+    "ModelAnswer": "It allows users to track their daily expenses and transactions easily.",
+    "KoreanTranslation": "새로운 모바일 뱅킹 앱의 주된 장점은 무엇인가요?",
+    "RequiredKeywords": [
+      "track",
+      "expenses",
+      "easily",
+      "users",
+      "app"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_015",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why did she decline the weekend dinner party invitation?",
+    "ModelAnswer": "She politely declined because she had a previous family appointment.",
+    "KoreanTranslation": "그녀는 주말 저녁 초대 행사를 왜 거절했나요?",
+    "RequiredKeywords": [
+      "declined",
+      "invitation",
+      "appointment",
+      "family",
+      "politely"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_016",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What did the leaders do after ten hours of intense negotiations?",
+    "ModelAnswer": "They finally reached a mutual agreement that satisfied both sides.",
+    "KoreanTranslation": "정상들은 10시간의 치열한 협상 끝에 무엇을 했나요?",
+    "RequiredKeywords": [
+      "agreement",
+      "reached",
+      "negotiations",
+      "satisfied",
+      "finally"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_017",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why are regular exercise and balanced nutrition so important?",
+    "ModelAnswer": "They are essential for maintaining physical energy and long-term health.",
+    "KoreanTranslation": "규칙적인 운동과 균형 잡힌 영양이 왜 그렇게 중요한가요?",
+    "RequiredKeywords": [
+      "essential",
+      "health",
+      "maintaining",
+      "exercise",
+      "nutrition"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_018",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What kind of event did the university club organize last week?",
+    "ModelAnswer": "They organized a charity fundraising event to support local children.",
+    "KoreanTranslation": "대학 동아리는 지난주에 어떤 행사를 주최했나요?",
+    "RequiredKeywords": [
+      "fundraising",
+      "charity",
+      "organized",
+      "support",
+      "event"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_019",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "How did his positive attitude affect the remaining team members?",
+    "ModelAnswer": "His positive attitude inspired and motivated everyone to work harder.",
+    "KoreanTranslation": "그의 긍정적인 태도는 다른 팀원들에게 어떤 영향을 주었나요?",
+    "RequiredKeywords": [
+      "inspired",
+      "positive",
+      "attitude",
+      "motivated",
+      "everyone"
+    ]
+  },
+  {
+    "Id": "anki_4000_words_qa_020",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What does it take to become proficient in playing a musical instrument?",
+    "ModelAnswer": "It requires great patience, constant practice, and discipline.",
+    "KoreanTranslation": "악기를 능숙하게 연주하려면 무엇이 필요한가요?",
+    "RequiredKeywords": [
+      "patience",
+      "practice",
+      "requires",
+      "discipline",
+      "instrument"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_001",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Tom's learning to play the guitar so he can join his friend's band.",
+    "ModelAnswer": "Tom's learning to play the guitar so he can join his friend's band.",
+    "KoreanTranslation": "톰은 친구의 밴드에 들어가기 위해 기타 치는 법을 배우고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_002",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "What time does the sports centre close on weekdays?",
+    "ModelAnswer": "What time does the sports centre close on weekdays?",
+    "KoreanTranslation": "주중에 스포츠 센터는 몇 시에 문을 닫나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_003",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "I'm living at Steve and Janet's house until next March.",
+    "ModelAnswer": "I'm living at Steve and Janet's house until next March.",
+    "KoreanTranslation": "저는 내년 3월까지 스티브와 재닛의 집에서 지내고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_004",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Do you like meeting new people when you travel abroad?",
+    "ModelAnswer": "Do you like meeting new people when you travel abroad?",
+    "KoreanTranslation": "해외여행을 할 때 새로운 사람들을 만나는 것을 좋아하시나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_005",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Michael didn't have much money last year, but he works full time now.",
+    "ModelAnswer": "Michael didn't have much money last year, but he works full time now.",
+    "KoreanTranslation": "마이클은 작년에 돈이 별로 없었지만, 지금은 정규직으로 일하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_006",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Sarah is looking for a new apartment near her workplace.",
+    "ModelAnswer": "Sarah is looking for a new apartment near her workplace.",
+    "KoreanTranslation": "사라는 직장 근처에서 새 아파트를 찾고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_007",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "We usually go to the countryside on weekends to enjoy nature.",
+    "ModelAnswer": "We usually go to the countryside on weekends to enjoy nature.",
+    "KoreanTranslation": "우리는 주말에 보통 자연을 즐기기 위해 시골로 갑니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_008",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Have you ever been to a professional baseball game in person?",
+    "ModelAnswer": "Have you ever been to a professional baseball game in person?",
+    "KoreanTranslation": "프로 야구 경기를 직접 보러 가본 적이 있나요?)",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_009",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "I was walking down the street when I ran into an old classmate.",
+    "ModelAnswer": "I was walking down the street when I ran into an old classmate.",
+    "KoreanTranslation": "길을 걸어가다가 옛 동창생을 우연히 마주쳤습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_010",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "She hasn't seen her best friend since they graduated from high school.",
+    "ModelAnswer": "She hasn't seen her best friend since they graduated from high school.",
+    "KoreanTranslation": "그녀는 고등학교를 졸업한 이후로 가장 친한 친구를 보지 못했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_011",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "We are having a team meeting tomorrow morning at nine o'clock.",
+    "ModelAnswer": "We are having a team meeting tomorrow morning at nine o'clock.",
+    "KoreanTranslation": "우리는 내일 아침 9시에 팀 회의가 예정되어 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_012",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "He is very tired because he has been working in the garden all morning.",
+    "ModelAnswer": "He is very tired because he has been working in the garden all morning.",
+    "KoreanTranslation": "그는 아침 내내 정원에서 일했기 때문에 매우 피곤합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_013",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "If it rains tomorrow, we will stay home and watch movies.",
+    "ModelAnswer": "If it rains tomorrow, we will stay home and watch movies.",
+    "KoreanTranslation": "내일 비가 오면 우리는 집에 머물며 영화를 볼 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_014",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Could you please show me the way to the nearest subway entrance?",
+    "ModelAnswer": "Could you please show me the way to the nearest subway entrance?",
+    "KoreanTranslation": "가장 가까운 지하철 입구로 가는 길을 알려주실 수 있나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_015",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "I have already finished all my homework for the week.",
+    "ModelAnswer": "I have already finished all my homework for the week.",
+    "KoreanTranslation": "저는 이번 주의 모든 숙제를 이미 다 끝마쳤습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_016",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "They are planning to travel to Italy during their summer vacation.",
+    "ModelAnswer": "They are planning to travel to Italy during their summer vacation.",
+    "KoreanTranslation": "그들은 여름 휴가 동안 이탈리아로 여행 갈 계획을 세우고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_017",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "My sister has lived in London for more than five years.",
+    "ModelAnswer": "My sister has lived in London for more than five years.",
+    "KoreanTranslation": "제 여동생은 런던에서 5년 넘게 살고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_018",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "You should drink plenty of water and get enough sleep every day.",
+    "ModelAnswer": "You should drink plenty of water and get enough sleep every day.",
+    "KoreanTranslation": "매일 물을 충분히 마시고 잠을 충분히 자야 합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_019",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "I am really looking forward to hearing your presentation tomorrow.",
+    "ModelAnswer": "I am really looking forward to hearing your presentation tomorrow.",
+    "KoreanTranslation": "내일 당신의 발표를 듣는 것을 정말 기대하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_020",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "Don't forget to lock the front door before you leave the house.",
+    "ModelAnswer": "Don't forget to lock the front door before you leave the house.",
+    "KoreanTranslation": "집을 나서기 전에 현관문을 잠그는 것을 잊지 마세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_021",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "The cafe on the corner brews the most delicious coffee in town.",
+    "ModelAnswer": "The cafe on the corner brews the most delicious coffee in town.",
+    "KoreanTranslation": "길모퉁이에 있는 그 카페는 동네에서 가장 맛있는 커피를 내립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_022",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "We decided to take the subway because parking downtown was difficult.",
+    "ModelAnswer": "We decided to take the subway because parking downtown was difficult.",
+    "KoreanTranslation": "시내 주차가 어려워서 우리는 지하철을 타기로 결정했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_023",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "She borrowed a fascinating history book from the central library.",
+    "ModelAnswer": "She borrowed a fascinating history book from the central library.",
+    "KoreanTranslation": "그녀는 중앙도서관에서 흥미진진한 역사책 한 권을 빌렸습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_024",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "He is practicing hard to pass the international speaking test.",
+    "ModelAnswer": "He is practicing hard to pass the international speaking test.",
+    "KoreanTranslation": "그는 국제 말하기 시험에 합격하기 위해 열심히 연습하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_sh_025",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "I was wondering if you might be free to grab lunch together tomorrow.",
+    "ModelAnswer": "I was wondering if you might be free to grab lunch together tomorrow.",
+    "KoreanTranslation": "내일 혹시 점심을 함께 드실 수 있는 시간이 되는지 궁금했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_001",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why is Tom practicing to play the guitar so diligently?",
+    "ModelAnswer": "Tom's learning to play the guitar so he can join his friend's band.",
+    "KoreanTranslation": "톰은 왜 그렇게 열심히 기타 치는 연습을 하고 있나요?",
+    "RequiredKeywords": [
+      "guitar",
+      "learning",
+      "play",
+      "join",
+      "band",
+      "friend"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_002",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What time does the neighborhood sports centre close today?",
+    "ModelAnswer": "The sports centre closes at nine o'clock in the evening.",
+    "KoreanTranslation": "동네 스포츠 센터는 오늘 몇 시에 문을 닫나요?",
+    "RequiredKeywords": [
+      "sports",
+      "centre",
+      "center",
+      "closes",
+      "close",
+      "nine",
+      "evening"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_003",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Where are you currently staying until next spring?",
+    "ModelAnswer": "I'm living at Steve and Janet's house until next March.",
+    "KoreanTranslation": "당신은 내년 봄까지 현재 어디에 머물고 있나요?",
+    "RequiredKeywords": [
+      "living",
+      "staying",
+      "house",
+      "steve",
+      "janet",
+      "march"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_004",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Do you enjoy meeting new people during your overseas trips?",
+    "ModelAnswer": "Yes, I really like meeting new people and sharing different stories.",
+    "KoreanTranslation": "해외여행 중 새로운 사람들을 만나는 것을 즐기시나요?",
+    "RequiredKeywords": [
+      "like",
+      "enjoy",
+      "meeting",
+      "people",
+      "travel",
+      "yes"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_005",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What are you and your team doing tomorrow morning at nine?",
+    "ModelAnswer": "We are having an important team meeting tomorrow at nine.",
+    "KoreanTranslation": "당신과 팀원들은 내일 아침 9시에 무엇을 하나요?",
+    "RequiredKeywords": [
+      "meeting",
+      "team",
+      "having",
+      "nine",
+      "morning"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_006",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What will you do if it rains heavily tomorrow afternoon?",
+    "ModelAnswer": "If it rains tomorrow, we will stay indoors and watch movies.",
+    "KoreanTranslation": "내일 오후에 비가 많이 오면 무엇을 할 건가요?",
+    "RequiredKeywords": [
+      "stay",
+      "movies",
+      "home",
+      "rains",
+      "watch"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_007",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Where are your friends planning to travel for summer vacation?",
+    "ModelAnswer": "They are planning to travel to Italy for their summer holiday.",
+    "KoreanTranslation": "당신의 친구들은 여름 휴가로 어디로 여행 갈 계획인가요?",
+    "RequiredKeywords": [
+      "travel",
+      "italy",
+      "summer",
+      "planning",
+      "vacation"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_008",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why does he look so exhausted after lunch today?",
+    "ModelAnswer": "He has been working in the garden outside all morning.",
+    "KoreanTranslation": "그는 오늘 점심 이후에 왜 그렇게 지쳐 보이나요?",
+    "RequiredKeywords": [
+      "working",
+      "garden",
+      "morning",
+      "tired",
+      "exhausted"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_009",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Have you completed the homework assignment given by your teacher?",
+    "ModelAnswer": "Yes, I have already finished all my homework for the week.",
+    "KoreanTranslation": "선생님이 내주신 숙제 과제를 완료하셨나요?",
+    "RequiredKeywords": [
+      "finished",
+      "homework",
+      "already",
+      "completed",
+      "yes"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_010",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What must you remember to do before leaving your apartment?",
+    "ModelAnswer": "I must remember to lock the front door securely before leaving.",
+    "KoreanTranslation": "아파트를 떠나기 전에 반드시 기억하고 해야 할 일은 무엇인가요?",
+    "RequiredKeywords": [
+      "lock",
+      "door",
+      "front",
+      "remember",
+      "leave"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_011",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why did they choose to ride the subway instead of driving?",
+    "ModelAnswer": "They took the subway because finding downtown parking was too difficult.",
+    "KoreanTranslation": "그들은 운전하는 대신 왜 지하철을 타기로 했나요?",
+    "RequiredKeywords": [
+      "subway",
+      "parking",
+      "downtown",
+      "difficult",
+      "driving"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_012",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "What kind of book did she borrow from the municipal library?",
+    "ModelAnswer": "She borrowed a fascinating book about world history.",
+    "KoreanTranslation": "그녀는 시립도서관에서 어떤 책을 빌렸나요?",
+    "RequiredKeywords": [
+      "history",
+      "book",
+      "borrowed",
+      "fascinating",
+      "library"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_013",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Why is he spending so many hours practicing English every night?",
+    "ModelAnswer": "He is practicing hard to pass the upcoming speaking examination.",
+    "KoreanTranslation": "그는 왜 매일 밤 영어 연습에 많은 시간을 쏟고 있나요?",
+    "RequiredKeywords": [
+      "speaking",
+      "pass",
+      "practicing",
+      "test",
+      "examination"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_014",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Would you like to have lunch together near the office tomorrow?",
+    "ModelAnswer": "Yes, I would love to join you for lunch tomorrow afternoon.",
+    "KoreanTranslation": "내일 사무실 근처에서 같이 점심 드실래요?",
+    "RequiredKeywords": [
+      "lunch",
+      "join",
+      "tomorrow",
+      "love",
+      "yes"
+    ]
+  },
+  {
+    "Id": "anki_intermediate_activities_qa_015",
+    "Language": 0,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "Which coffee shop serves the best espresso in this neighborhood?",
+    "ModelAnswer": "The little cafe on the corner serves the best coffee in town.",
+    "KoreanTranslation": "이 동네에서 에스프레소가 가장 맛있는 카페는 어디인가요?",
+    "RequiredKeywords": [
+      "cafe",
+      "coffee",
+      "corner",
+      "best",
+      "serves"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_sh_001",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "I don't know how she manages to stay so remarkably fit.",
+    "ModelAnswer": "I don't know how she manages to stay so remarkably fit.",
+    "KoreanTranslation": "그녀가 어떻게 그렇게 놀라울 정도로 건강한 몸을 유지하는지 모르겠어요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_002",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "It says here that you're supposed to add the garlic just before serving.",
+    "ModelAnswer": "It says here that you're supposed to add the garlic just before serving.",
+    "KoreanTranslation": "여기 설명서에는 요리를 내기 직전에 마늘을 넣어야 한다고 적혀 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_003",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "It's the first time we've ever had a complaint about the service we offer.",
+    "ModelAnswer": "It's the first time we've ever had a complaint about the service we offer.",
+    "KoreanTranslation": "저희가 제공하는 서비스에 대한 불만이 접수된 것은 이번이 처음입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_004",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "He drove to the south of France twice last month to visit his parents.",
+    "ModelAnswer": "He drove to the south of France twice last month to visit his parents.",
+    "KoreanTranslation": "그는 부모님을 뵈러 지난달에 두 번이나 프랑스 남부까지 운전해서 갔습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_005",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "I was so late getting to the airport that my flight had left and I had to travel later.",
+    "ModelAnswer": "I was so late getting to the airport that my flight had left and I had to travel later.",
+    "KoreanTranslation": "공항에 너무 늦게 도착하는 바람에 비행기가 이미 떠나서 나중에 출발해야 했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_006",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The company announced that sales had increased by twenty percent this quarter.",
+    "ModelAnswer": "The company announced that sales had increased by twenty percent this quarter.",
+    "KoreanTranslation": "회사는 이번 분기 매출이 20퍼센트 증가했다고 발표했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_007",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Hardly had we started our journey when the car engine broke down.",
+    "ModelAnswer": "Hardly had we started our journey when the car engine broke down.",
+    "KoreanTranslation": "우리가 여행을 시작하자마자 자동차 엔진이 고장 났습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_008",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "If you had informed me in advance, I could have prepared all the necessary documents.",
+    "ModelAnswer": "If you had informed me in advance, I could have prepared all the necessary documents.",
+    "KoreanTranslation": "미리 알려주셨더라면 제가 필요한 서류를 모두 준비해 둘 수 있었을 텐데요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_009",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Not only did she pass the exam, but she also achieved the highest score.",
+    "ModelAnswer": "Not only did she pass the exam, but she also achieved the highest score.",
+    "KoreanTranslation": "그녀는 시험에 합격했을 뿐만 아니라 최고 점수를 기록했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_010",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The manager suggested that we postpone the product launch until next month.",
+    "ModelAnswer": "The manager suggested that we postpone the product launch until next month.",
+    "KoreanTranslation": "매니저는 신제품 출시를 다음 달까지 연기할 것을 제안했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_011",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Having worked in the technology sector for ten years, he has extensive experience.",
+    "ModelAnswer": "Having worked in the technology sector for ten years, he has extensive experience.",
+    "KoreanTranslation": "기술 분야에서 10년 동안 근무했기 때문에 그는 폭넓은 경험을 가지고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_012",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Under no circumstances should confidential information be shared outside the team.",
+    "ModelAnswer": "Under no circumstances should confidential information be shared outside the team.",
+    "KoreanTranslation": "어떠한 상황에서도 기밀 정보가 팀 외부로 유출되어서는 안 됩니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_013",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "I would rather stay home and relax tonight than attend the noisy party.",
+    "ModelAnswer": "I would rather stay home and relax tonight than attend the noisy party.",
+    "KoreanTranslation": "저는 오늘 밤 시끄러운 파티에 참석하느니 차라리 집에서 쉬고 싶습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_014",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Despite the heavy snowfall, all flights departed on schedule without delay.",
+    "ModelAnswer": "Despite the heavy snowfall, all flights departed on schedule without delay.",
+    "KoreanTranslation": "폭설에도 불구하고 모든 항공편이 지연 없이 예정대로 출발했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_015",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "It is essential that everyone understand the safety guidelines before using the equipment.",
+    "ModelAnswer": "It is essential that everyone understand the safety guidelines before using the equipment.",
+    "KoreanTranslation": "장비를 사용하기 전에 모든 사람이 안전 수칙을 이해하는 것이 필수적입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_016",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Little did I realize that this decision would completely change my professional career.",
+    "ModelAnswer": "Little did I realize that this decision would completely change my professional career.",
+    "KoreanTranslation": "이 결정이 나의 직업적 커리어를 완전히 바꿀 줄은 꿈에도 몰랐습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_017",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Should you require any further assistance, please feel free to reach out to our team.",
+    "ModelAnswer": "Should you require any further assistance, please feel free to reach out to our team.",
+    "KoreanTranslation": "추가적인 도움이 필요하시면 언제든지 저희 팀에 문의해 주시기 바랍니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_018",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The new policy is designed to encourage employees to maintain a healthy work-life balance.",
+    "ModelAnswer": "The new policy is designed to encourage employees to maintain a healthy work-life balance.",
+    "KoreanTranslation": "새로운 정책은 직원들이 건강한 일과 삶의 균형을 유지하도록 장려하기 위해 고안되었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_019",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Had I known the truth earlier, I would have handled the situation much more carefully.",
+    "ModelAnswer": "Had I known the truth earlier, I would have handled the situation much more carefully.",
+    "KoreanTranslation": "진실을 더 일찍 알았더라면 상황을 훨씬 더 신중하게 처리했을 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_020",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The research clearly demonstrates a strong correlation between sleep and productivity.",
+    "ModelAnswer": "The research clearly demonstrates a strong correlation between sleep and productivity.",
+    "KoreanTranslation": "이 연구는 수면과 생산성 사이에 밀접한 상관관계가 있음을 명확히 보여줍니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_021",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "No sooner had the keynote speaker finished his speech than the audience stood up and applauded.",
+    "ModelAnswer": "No sooner had the keynote speaker finished his speech than the audience stood up and applauded.",
+    "KoreanTranslation": "기조연설자가 말을 마치자마자 청중들은 기립하여 박수를 보냈습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_022",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Were it not for your generous financial support, we could not have completed this medical project.",
+    "ModelAnswer": "Were it not for your generous financial support, we could not have completed this medical project.",
+    "KoreanTranslation": "당신의 아낌없는 재정적 후원이 없었더라면, 우리는 이 의료 프로젝트를 완수하지 못했을 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_023",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Seldom do we encounter an individual with such extraordinary dedication to social welfare.",
+    "ModelAnswer": "Seldom do we encounter an individual with such extraordinary dedication to social welfare.",
+    "KoreanTranslation": "사회 복지에 이토록 비범한 헌신을 보여주는 인물을 만나는 것은 매우 드문 일입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_024",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The board of directors unanimously approved the merger after thorough legal consultations.",
+    "ModelAnswer": "The board of directors unanimously approved the merger after thorough legal consultations.",
+    "KoreanTranslation": "이사회는 철저한 법률 자문을 거친 후 만장일치로 합병을 승인했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_025",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "She insisted on reviewing the contract terms once more before signing the agreement.",
+    "ModelAnswer": "She insisted on reviewing the contract terms once more before signing the agreement.",
+    "KoreanTranslation": "그녀는 계약서에 서명하기 전에 계약 조건을 한 번 더 검토할 것을 고집했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_026",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Only by working together collaboratively can we overcome these unprecedented global challenges.",
+    "ModelAnswer": "Only by working together collaboratively can we overcome these unprecedented global challenges.",
+    "KoreanTranslation": "협력하여 함께 노력할 때에만 우리는 이러한 전례 없는 글로벌 과제들을 극복할 수 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_027",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "It came as a great surprise to all of us that the CEO decided to resign so abruptly.",
+    "ModelAnswer": "It came as a great surprise to all of us that the CEO decided to resign so abruptly.",
+    "KoreanTranslation": "CEO가 그렇게 갑작스럽게 사임하기로 결정했다는 사실은 우리 모두에게 큰 놀라움이었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_028",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "He speaks with such eloquence and authority that people naturally listen attentively.",
+    "ModelAnswer": "He speaks with such eloquence and authority that people naturally listen attentively.",
+    "KoreanTranslation": "그는 매우 유창하고 권위 있게 말하기 때문에 사람들은 자연스럽게 주의 깊게 경청합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_029",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "The committee recommended that the municipal budget be allocated more transparently.",
+    "ModelAnswer": "The committee recommended that the municipal budget be allocated more transparently.",
+    "KoreanTranslation": "위원회는 시 예산이 더욱 투명하게 배분될 것을 권고했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_sh_030",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "Provided that all safety requirements are met, construction will commence next Monday.",
+    "ModelAnswer": "Provided that all safety requirements are met, construction will commence next Monday.",
+    "KoreanTranslation": "모든 안전 요건이 충족된다는 조건하에 다음 주 월요일부터 공사가 시작될 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "anki_advanced_activities_qa_001",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Do you have any idea how she manages to stay so fit and active?",
+    "ModelAnswer": "I don't know how she stays so fit, but she exercises every day.",
+    "KoreanTranslation": "그녀가 어떻게 그렇게 건강하고 활력 넘치는 몸을 유지하는지 아시나요?",
+    "RequiredKeywords": [
+      "stays",
+      "fit",
+      "exercises",
+      "healthy",
+      "don't know"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_002",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "When should we add the garlic according to the recipe instructions?",
+    "ModelAnswer": "It says here that you're supposed to add garlic just before serving.",
+    "KoreanTranslation": "레시피에 따르면 마늘을 언제 넣어야 하나요?",
+    "RequiredKeywords": [
+      "add",
+      "garlic",
+      "before",
+      "serving",
+      "supposed"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_003",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Has the customer service department ever received a complaint before?",
+    "ModelAnswer": "No, it's the first time we've ever had a complaint about our service.",
+    "KoreanTranslation": "고객 센터에 이전에 고객 불만이 접수된 적이 있었나요?",
+    "RequiredKeywords": [
+      "first",
+      "time",
+      "complaint",
+      "service",
+      "ever"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_004",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Why did he take that long drive to the south of France twice last month?",
+    "ModelAnswer": "He drove there twice last month to visit his elderly parents.",
+    "KoreanTranslation": "그는 왜 지난달에 프랑스 남부까지 두 번이나 장거리 운전을 했나요?",
+    "RequiredKeywords": [
+      "drove",
+      "visit",
+      "parents",
+      "france",
+      "month"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_005",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Why did you end up missing your morning flight to New York?",
+    "ModelAnswer": "I was so late getting to the airport that my flight had already left.",
+    "KoreanTranslation": "왜 뉴욕행 아침 비행기를 놓치게 되었나요?",
+    "RequiredKeywords": [
+      "late",
+      "airport",
+      "flight",
+      "left",
+      "missed"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_006",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "What did the company report regarding their quarterly sales performance?",
+    "ModelAnswer": "The company announced that sales had increased by twenty percent.",
+    "KoreanTranslation": "회사는 분기 매출 실적에 대해 무엇을 발표했나요?",
+    "RequiredKeywords": [
+      "sales",
+      "increased",
+      "percent",
+      "announced",
+      "quarter"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_007",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "What happened right after you started your road trip yesterday?",
+    "ModelAnswer": "Hardly had we started our journey when our car engine broke down.",
+    "KoreanTranslation": "어제 자동차 여행을 시작하자마자 무슨 일이 일어났나요?",
+    "RequiredKeywords": [
+      "started",
+      "journey",
+      "engine",
+      "broke",
+      "car"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_008",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Would you like to go to the company dinner party tonight?",
+    "ModelAnswer": "I would rather stay home and relax tonight than attend the party.",
+    "KoreanTranslation": "오늘 저녁 회사 회식 파티에 가시겠어요?",
+    "RequiredKeywords": [
+      "rather",
+      "stay",
+      "relax",
+      "home",
+      "party"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_009",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "What is the main purpose of this newly introduced company policy?",
+    "ModelAnswer": "It is designed to encourage employees to maintain work-life balance.",
+    "KoreanTranslation": "이번에 새로 도입된 회사 정책의 주요 목적은 무엇인가요?",
+    "RequiredKeywords": [
+      "encourage",
+      "employees",
+      "work",
+      "life",
+      "balance"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_010",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "What should we do if customers have additional questions about the system?",
+    "ModelAnswer": "Please tell them to feel free to reach out to our support team.",
+    "KoreanTranslation": "고객들이 시스템에 대해 추가 질문이 있으면 어떻게 해야 하나요?",
+    "RequiredKeywords": [
+      "reach",
+      "team",
+      "support",
+      "assistance",
+      "feel free"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_011",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "How did the audience react when the keynote speaker concluded his remarks?",
+    "ModelAnswer": "The audience immediately stood up and gave a passionate standing ovation.",
+    "KoreanTranslation": "기조연설자가 발언을 마쳤을 때 청중들은 어떻게 반응했나요?",
+    "RequiredKeywords": [
+      "applauded",
+      "stood",
+      "audience",
+      "ovation",
+      "speech"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_012",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Under what circumstances can confidential client files be disclosed?",
+    "ModelAnswer": "Under no circumstances should confidential files be shared outside.",
+    "KoreanTranslation": "어떤 상황에서 기밀 고객 파일을 외부에 공개할 수 있나요?",
+    "RequiredKeywords": [
+      "circumstances",
+      "confidential",
+      "shared",
+      "never",
+      "outside"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_013",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "What did the board of directors decide regarding the corporate merger?",
+    "ModelAnswer": "They unanimously voted to approve the merger following legal review.",
+    "KoreanTranslation": "이사회는 기업 합병에 대해 어떤 결정을 내렸나요?",
+    "RequiredKeywords": [
+      "approved",
+      "merger",
+      "unanimously",
+      "board",
+      "directors"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_014",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "Why did the committee insist on reviewing the contractual agreement?",
+    "ModelAnswer": "They wanted to ensure all legal clauses and protections were verified.",
+    "KoreanTranslation": "위원회는 왜 계약 합의서를 재검토해야 한다고 고집했나요?",
+    "RequiredKeywords": [
+      "clauses",
+      "reviewing",
+      "contract",
+      "legal",
+      "ensure"
+    ]
+  },
+  {
+    "Id": "anki_advanced_activities_qa_015",
+    "Language": 0,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "When is the commercial construction project scheduled to commence?",
+    "ModelAnswer": "Provided that safety guidelines are certified, work begins next Monday.",
+    "KoreanTranslation": "상업용 건축 프로젝트는 언제 시작될 예정인가요?",
+    "RequiredKeywords": [
+      "commence",
+      "begins",
+      "monday",
+      "safety",
+      "provided"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_sh_001",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "こんにちは、始めましょう。",
+    "ModelAnswer": "こんにちは、始めましょう。",
+    "KoreanTranslation": "안녕하세요, 시작해 봅시다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_002",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "駅はどちらの方向にありますか。",
+    "ModelAnswer": "駅はどちらの方向にありますか。",
+    "KoreanTranslation": "역은 어느 방향에 있습니까?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_003",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "アイスコーヒーを一つお願いします。",
+    "ModelAnswer": "アイスコーヒーを一つお願いします。",
+    "KoreanTranslation": "아이스 커피 하나 부탁드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_004",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "日本語の勉強はとても面白いです。",
+    "ModelAnswer": "日本語の勉強はとても面白いです。",
+    "KoreanTranslation": "일본어 공부는 매우 재미있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_005",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "お会いできて嬉しかったです。また会いましょう。",
+    "ModelAnswer": "お会いできて嬉しかったです。また会いましょう。",
+    "KoreanTranslation": "만나 봬서 반가웠습니다. 또 만나요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_006",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "すみません、これはいくらですか。",
+    "ModelAnswer": "すみません、これはいくらですか。",
+    "KoreanTranslation": "실례합니다, 이것은 얼마입니까?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_007",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "今何時ですか。三時半です。",
+    "ModelAnswer": "今何時ですか。三時半です。",
+    "KoreanTranslation": "지금 몇 시입니까? 3시 반입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_008",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "明日は天気がいいでしょう。",
+    "ModelAnswer": "明日は天気がいいでしょう。",
+    "KoreanTranslation": "내일은 날씨가 좋을 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_009",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "私は毎朝パンと牛乳を食べます。",
+    "ModelAnswer": "私は毎朝パンと牛乳を食べます。",
+    "KoreanTranslation": "저는 매일 아침 빵과 우유를 먹습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_010",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "トイレはどこにありますか。",
+    "ModelAnswer": "トイレはどこにありますか。",
+    "KoreanTranslation": "화장실은 어디에 있습니까?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_011",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "この電車は新宿に行きますか。",
+    "ModelAnswer": "この電車は新宿に行きますか。",
+    "KoreanTranslation": "이 전철은 신주쿠로 갑니까?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_012",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "今日はとても暑いですね。",
+    "ModelAnswer": "今日はとても暑いですね。",
+    "KoreanTranslation": "오늘은 매우 덥네요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_013",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "昨日は友達と映画を見ました。",
+    "ModelAnswer": "昨日は友達と映画を見ました。",
+    "KoreanTranslation": "어제는 친구와 영화를 보았습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_014",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "私の趣味は音楽を聴くことです。",
+    "ModelAnswer": "私の趣味は音楽を聴くことです。",
+    "KoreanTranslation": "제 취미는 음악을 듣는 것입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_015",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "どうぞよろしくお願いいたします。",
+    "ModelAnswer": "どうぞよろしくお願いいたします。",
+    "KoreanTranslation": "아무쪼록 잘 부탁드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_016",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "水をおかわりいただけますか。",
+    "ModelAnswer": "水をおかわりいただけますか。",
+    "KoreanTranslation": "물 좀 더 주실 수 있나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_017",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "名前をここに書いてください。",
+    "ModelAnswer": "名前をここに書いてください。",
+    "KoreanTranslation": "이름을 여기에 써 주세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_018",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "駅から歩いて五分くらいかかります。",
+    "ModelAnswer": "駅から歩いて五分くらいかかります。",
+    "KoreanTranslation": "역에서 걸어서 5분 정도 걸립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_019",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "図書館で本を借りました。",
+    "ModelAnswer": "図書館で本を借りました。",
+    "KoreanTranslation": "도서관에서 책을 빌렸습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_020",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "昨日の夜は早く寝ました。",
+    "ModelAnswer": "昨日の夜は早く寝ました。",
+    "KoreanTranslation": "어젯밤에는 일찍 잤습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_021",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "このリンゴはとても甘くて美味しいです。",
+    "ModelAnswer": "このリンゴはとても甘くて美味しいです。",
+    "KoreanTranslation": "이 사과는 매우 달고 맛있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_022",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "家族と一緒に晩ご飯を食べます。",
+    "ModelAnswer": "家族と一緒に晩ご飯を食べます。",
+    "KoreanTranslation": "가족과 함께 저녁을 먹습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_023",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "週末は買い物をします。",
+    "ModelAnswer": "週末は買い物をします。",
+    "KoreanTranslation": "주말에는 쇼핑을 합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_024",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "日本語が少し上手になりました。",
+    "ModelAnswer": "日本語が少し上手になりました。",
+    "KoreanTranslation": "일본어가 조금 능숙해졌습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_sh_025",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 0,
+    "PromptText": "今日も一日お疲れ様でした。",
+    "ModelAnswer": "今日も一日お疲れ様でした。",
+    "KoreanTranslation": "오늘도 하루 수고 많으셨습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_1_qa_001",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "お飲み物は何にしますか。",
+    "ModelAnswer": "温かい緑茶をお願いします。",
+    "KoreanTranslation": "음료는 무엇으로 하시겠습니까?",
+    "RequiredKeywords": [
+      "緑茶",
+      "コーヒー",
+      "水",
+      "お茶",
+      "お願いします"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_002",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "今日の天気はどうですか。",
+    "ModelAnswer": "今日はとても晴れていて暖かいです。",
+    "KoreanTranslation": "오늘 날씨는 어떤가요?",
+    "RequiredKeywords": [
+      "晴れ",
+      "暖かい",
+      "雨",
+      "寒い",
+      "今日"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_003",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "休みの日は何をしますか。",
+    "ModelAnswer": "家で映画を見たり、本を読んだりします。",
+    "KoreanTranslation": "쉬는 날에는 무엇을 하나요?",
+    "RequiredKeywords": [
+      "映画",
+      "本",
+      "休み",
+      "家",
+      "読んだり"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_004",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "日本で行ってみたい場所はどこですか。",
+    "ModelAnswer": "京都の古いお寺に行ってみたいです。",
+    "KoreanTranslation": "일본에서 가보고 싶은 곳은 어디인가요?",
+    "RequiredKeywords": [
+      "京都",
+      "東京",
+      "大阪",
+      "行きたい",
+      "お寺"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_005",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "簡単に自己紹介をお願いできますか。",
+    "ModelAnswer": "初めまして、ソウルから来た会社員です。",
+    "KoreanTranslation": "간단히 자기소개를 부탁드려도 될까요?",
+    "RequiredKeywords": [
+      "初めまして",
+      "会社員",
+      "学生",
+      "ソウル",
+      "です"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_006",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "朝ご飯は何を食べましたか。",
+    "ModelAnswer": "パンと目玉焼きとコーヒーを食べました。",
+    "KoreanTranslation": "아침 식사로 무엇을 드셨나요?",
+    "RequiredKeywords": [
+      "パン",
+      "コーヒー",
+      "卵",
+      "食べました",
+      "朝"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_007",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "何時の電車に乗りますか。",
+    "ModelAnswer": "八時十五分の電車に乗ります。",
+    "KoreanTranslation": "몇 시 전철을 타시나요?",
+    "RequiredKeywords": [
+      "電車",
+      "時",
+      "乗ります",
+      "分",
+      "八時"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_008",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "趣味は何ですか。",
+    "ModelAnswer": "私の趣味は写真を撮ることです。",
+    "KoreanTranslation": "취미가 무엇인가요?",
+    "RequiredKeywords": [
+      "写真",
+      "趣味",
+      "音楽",
+      "旅行",
+      "撮る"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_009",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "お会計は別々ですか、ご一緒ですか。",
+    "ModelAnswer": "一緒にお願いします。",
+    "KoreanTranslation": "계산은 따로 하시겠습니까, 같이 하시겠습니까?",
+    "RequiredKeywords": [
+      "一緒",
+      "別々",
+      "お願いします",
+      "カード",
+      "現金"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_010",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "お名前はどう書きますか。",
+    "ModelAnswer": "カタカナで書いてください。",
+    "KoreanTranslation": "성함은 어떻게 적습니까?",
+    "RequiredKeywords": [
+      "カタカナ",
+      "名前",
+      "漢字",
+      "書きます",
+      "ひらがな"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_011",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "週末はどこかに出かけましたか。",
+    "ModelAnswer": "近くの公園へ散歩に行きました。",
+    "KoreanTranslation": "주말에는 어딘가 다녀오셨나요?",
+    "RequiredKeywords": [
+      "公園",
+      "散歩",
+      "行きました",
+      "週末",
+      "どこ"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_012",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "辛い食べ物は大丈夫ですか。",
+    "ModelAnswer": "はい、辛い料理が大好きです。",
+    "KoreanTranslation": "매운 음식 괜찮으신가요?",
+    "RequiredKeywords": [
+      "辛い",
+      "料理",
+      "好き",
+      "大丈夫",
+      "はい"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_013",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "駅までどのくらいかかりますか。",
+    "ModelAnswer": "歩いて十分くらいかかります。",
+    "KoreanTranslation": "역까지 어느 정도 걸리나요?",
+    "RequiredKeywords": [
+      "歩いて",
+      "十分",
+      "かかります",
+      "駅",
+      "分"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_014",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "この服を着てみてもいいですか。",
+    "ModelAnswer": "はい、試着室へどうぞ。",
+    "KoreanTranslation": "이 옷을 입어봐도 될까요?",
+    "RequiredKeywords": [
+      "どうぞ",
+      "試着室",
+      "はい",
+      "いいです",
+      "着て"
+    ]
+  },
+  {
+    "Id": "cur_ja_1_qa_015",
+    "Language": 1,
+    "Difficulty": 1,
+    "Mode": 1,
+    "PromptText": "昨日はよく眠れましたか。",
+    "ModelAnswer": "はい、ぐっすり眠ることができました。",
+    "KoreanTranslation": "어제는 잘 주무셨나요?",
+    "RequiredKeywords": [
+      "眠れました",
+      "はい",
+      "よく",
+      "ぐっすり",
+      "昨日"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_sh_001",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "日本へ行く前にホテルを予約しておきました。",
+    "ModelAnswer": "日本へ行く前にホテルを予約しておきました。",
+    "KoreanTranslation": "일본에 가기 전에 호텔을 예약해 두었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_002",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "天気が良ければ、山へハイキングに行こうと思います。",
+    "ModelAnswer": "天気が良ければ、山へハイキングに行こうと思います。",
+    "KoreanTranslation": "날씨가 좋으면 산으로 하이킹을 가려고 생각합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_003",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "約束の時間に遅れないように気をつけてください。",
+    "ModelAnswer": "約束の時間に遅れないように気をつけてください。",
+    "KoreanTranslation": "약속 시간에 늦지 않도록 조심해 주세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_004",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "毎日日本語のニュースを聞くようにしています。",
+    "ModelAnswer": "毎日日本語のニュースを聞くようにしています。",
+    "KoreanTranslation": "매일 일본어 뉴스를 듣도록 노력하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_005",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "一度日本で温泉に入ってみたいです。",
+    "ModelAnswer": "一度日本で温泉に入ってみたいです。",
+    "KoreanTranslation": "한 번 일본에서 온천에 들어가 보고 싶습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_006",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "体調が悪ければ無理をしないで休んでください。",
+    "ModelAnswer": "体調が悪ければ無理をしないで休んでください。",
+    "KoreanTranslation": "몸 상태가 나쁘면 무리하지 말고 쉬세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_007",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "友達が引っ越しの手伝いをしてくれました。",
+    "ModelAnswer": "友達が引っ越しの手伝いをしてくれました。",
+    "KoreanTranslation": "친구가 이사하는 것을 도와주었습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_008",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "この機械の使い方がよく分からないので教えていただけますか。",
+    "ModelAnswer": "この機械の使い方がよく分からないので教えていただけますか。",
+    "KoreanTranslation": "이 기계의 사용법을 잘 모르겠으니 가르쳐 주실 수 있나요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_009",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "会議の資料を明日までに準備しなければなりません。",
+    "ModelAnswer": "会議の資料を明日までに準備しなければなりません。",
+    "KoreanTranslation": "회의 자료를 내일까지 준비해야 합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_010",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "彼は英語だけでなく日本語も流暢に話せます。",
+    "ModelAnswer": "彼は英語だけでなく日本語も流暢に話せます。",
+    "KoreanTranslation": "그는 영어뿐만 아니라 일본어도 유창하게 말할 수 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_011",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "週末は部屋を掃除したり、洗濯をしたりしました。",
+    "ModelAnswer": "週末は部屋を掃除したり、洗濯をしたりしました。",
+    "KoreanTranslation": "주말에는 방을 청소하거나 빨래를 하거나 했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_012",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "雨が降りそうなので、傘を持って出かけたほうがいいです。",
+    "ModelAnswer": "雨が降りそうなので、傘を持って出かけたほうがいいです。",
+    "KoreanTranslation": "비가 올 것 같으니 우산을 챙겨 나가는 편이 좋습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_013",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "電車が遅れたために、約束の時間に間に合いませんでした。",
+    "ModelAnswer": "電車が遅れたために、約束の時間に間に合いませんでした。",
+    "KoreanTranslation": "전철이 지연되었기 때문에 약속 시간에 맞추지 못했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_014",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "パスポートをなくさないように大切に保管してください。",
+    "ModelAnswer": "パスポートをなくさないように大切に保管してください。",
+    "KoreanTranslation": "여권을 잃어버리지 않도록 소중히 보관해 주세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_015",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "日本語の漢字を覚えるのは大変ですが、やりがいがあります。",
+    "ModelAnswer": "日本語の漢字を覚えるのは大変ですが、やりがいがあります。",
+    "KoreanTranslation": "일본어 한자를 외우는 것은 힘들지만 보람이 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_016",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "もし時間があれば、おすすめの観光地を教えてください。",
+    "ModelAnswer": "もし時間があれば、おすすめの観光地を教えてください。",
+    "KoreanTranslation": "만약 시간이 있으시다면 추천 관광지를 알려주세요.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_017",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "来週から新しいプロジェクトが始まる予定です。",
+    "ModelAnswer": "来週から新しいプロジェクトが始まる予定です。",
+    "KoreanTranslation": "다음 주부터 새로운 프로젝트가 시작될 예정입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_018",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "健康のために毎晩三十分ジョギングをしています。",
+    "ModelAnswer": "健康のために毎晩三十分ジョギングをしています。",
+    "KoreanTranslation": "건강을 위해 매일 밤 30분씩 조깅을 하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_019",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "新幹線の切符をインターネットで購入しました。",
+    "ModelAnswer": "新幹線の切符をインターネットで購入しました。",
+    "KoreanTranslation": "신칸센 표를 인터넷으로 구입했습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_020",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "空港に到着したらすぐに連絡を入れます。",
+    "ModelAnswer": "空港に到着したらすぐに連絡を入れます。",
+    "KoreanTranslation": "공항에 도착하면 즉시 연락을 드리겠습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_021",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "旅行の計画を立てるだけでもワクワクします。",
+    "ModelAnswer": "旅行の計画を立てるだけでもワクワクします。",
+    "KoreanTranslation": "여행 계획을 세우는 것만으로도 두근거립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_022",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "このレストランは雰囲気が良くて料理も美味しいです。",
+    "ModelAnswer": "このレストランは雰囲気が良くて料理も美味しいです。",
+    "KoreanTranslation": "이 레스토랑은 분위기가 좋고 요리도 맛있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_023",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "日本語の資格試験に合格するために一生懸命勉強しています。",
+    "ModelAnswer": "日本語の資格試験に合格するために一生懸命勉強しています。",
+    "KoreanTranslation": "일본어 자격시험에 합격하기 위해 열심히 공부하고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_024",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "お忙しいところ恐れ入りますが、ご確認をお願いできますでしょうか。",
+    "ModelAnswer": "お忙しいところ恐れ入りますが、ご確認をお願いできますでしょうか。",
+    "KoreanTranslation": "바쁘신 와중에 죄송하지만 확인을 부탁드려도 될까요?",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_sh_025",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 0,
+    "PromptText": "日本の伝統的な文化にとても興味があります。",
+    "ModelAnswer": "日本の伝統的な文化にとても興味があります。",
+    "KoreanTranslation": "일본의 전통문화에 매우 관심이 많습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_2_qa_001",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "日本旅行の準備はもう終わりましたか。",
+    "ModelAnswer": "はい、ホテルの予約と航空券の手配が完了しました。",
+    "KoreanTranslation": "일본 여행 준비는 벌써 끝났나요?",
+    "RequiredKeywords": [
+      "ホテル",
+      "予約",
+      "航空券",
+      "準備",
+      "完了"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_002",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "日本語を勉強する時に気をつけていることは何ですか。",
+    "ModelAnswer": "毎日少しずつでも声に出して練習することです。",
+    "KoreanTranslation": "일본어를 공부할 때 신경 쓰는 점은 무엇인가요?",
+    "RequiredKeywords": [
+      "毎日",
+      "声",
+      "練習",
+      "勉強",
+      "話す"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_003",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "週末はどう過ごす予定ですか。",
+    "ModelAnswer": "天気が良ければ、近くの山へハイキングに行く予定です。",
+    "KoreanTranslation": "주말은 어떻게 보낼 예정인가요?",
+    "RequiredKeywords": [
+      "ハイキング",
+      "山",
+      "天気",
+      "予定",
+      "週末"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_004",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "体調が悪そうな時はどうしますか。",
+    "ModelAnswer": "無理をせずに温かいお茶を飲んで早く寝ます。",
+    "KoreanTranslation": "몸 상태가 안 좋아 보일 때는 어떻게 하나요?",
+    "RequiredKeywords": [
+      "無理",
+      "早く",
+      "寝ます",
+      "病院",
+      "休みます"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_005",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "新しい街に引っ越したら何をしたいですか。",
+    "ModelAnswer": "近所のおしゃれなカフェを探してみたいです。",
+    "KoreanTranslation": "새 동네로 이사하면 무엇을 하고 싶나요?",
+    "RequiredKeywords": [
+      "カフェ",
+      "近所",
+      "探して",
+      "引っ越し",
+      "散歩"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_006",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "会議の開始時間は何時からですか。",
+    "ModelAnswer": "明日の午前十時から会議室で行われます。",
+    "KoreanTranslation": "회의 시작 시간은 몇 시부터인가요?",
+    "RequiredKeywords": [
+      "十時",
+      "会議",
+      "午前",
+      "開始",
+      "会議室"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_007",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "日本の食べ物で一番好きなものは何ですか。",
+    "ModelAnswer": "新鮮な寿司と温かいラーメンが大好きです。",
+    "KoreanTranslation": "일본 음식 중에서 가장 좋아하는 것은 무엇인가요?",
+    "RequiredKeywords": [
+      "寿司",
+      "ラーメン",
+      "好き",
+      "日本",
+      "料理"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_008",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "電車が遅延した時はどう連絡しますか。",
+    "ModelAnswer": "すぐに担当者にメッセージを送って状況を伝えます。",
+    "KoreanTranslation": "전철이 지연되었을 때는 어떻게 연락하나요?",
+    "RequiredKeywords": [
+      "連絡",
+      "遅れ",
+      "メッセージ",
+      "伝えます",
+      "担当"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_009",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "日本語の漢字はどうやって覚えていますか。",
+    "ModelAnswer": "単語ノートに何度も書いて練習しています。",
+    "KoreanTranslation": "일본어 한자는 어떻게 외우고 있나요?",
+    "RequiredKeywords": [
+      "漢字",
+      "書いて",
+      "ノート",
+      "覚えて",
+      "練習"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_010",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "休日にリフレッシュする方法は何ですか。",
+    "ModelAnswer": "好きな音楽を聴きながら長風呂に入ることです。",
+    "KoreanTranslation": "휴일에 기분 전환하는 방법은 무엇인가요?",
+    "RequiredKeywords": [
+      "音楽",
+      "風呂",
+      "散歩",
+      "リフレッシュ",
+      "映画"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_011",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "空港まで何で行きますか。",
+    "ModelAnswer": "荷物が多いのでリムジンバスで行こうと思います。",
+    "KoreanTranslation": "공항까지 무엇을 타고 가나요?",
+    "RequiredKeywords": [
+      "バス",
+      "電車",
+      "タクシー",
+      "空港",
+      "荷物"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_012",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "今度の連休はどこか旅行へ行きますか。",
+    "ModelAnswer": "温泉旅館に泊まってのんびり過ごす予定です。",
+    "KoreanTranslation": "이번 연휴에는 어딘가 여행을 가시나요?",
+    "RequiredKeywords": [
+      "温泉",
+      "旅館",
+      "旅行",
+      "予定",
+      "のんびり"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_013",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "おすすめの日本のお土産はありますか。",
+    "ModelAnswer": "抹茶のお菓子や伝統的な工芸品が人気です。",
+    "KoreanTranslation": "추천할 만한 일본 기념품이 있나요?",
+    "RequiredKeywords": [
+      "お菓子",
+      "抹茶",
+      "お土産",
+      "人気",
+      "工芸品"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_014",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "スマートフォンでよく使うアプリは何ですか。",
+    "ModelAnswer": "地図アプリと語学学習のアプリをよく使います。",
+    "KoreanTranslation": "스마트폰에서 자주 쓰는 앱은 무엇인가요?",
+    "RequiredKeywords": [
+      "アプリ",
+      "地図",
+      "語学",
+      "使います",
+      "スマホ"
+    ]
+  },
+  {
+    "Id": "cur_ja_2_qa_015",
+    "Language": 1,
+    "Difficulty": 2,
+    "Mode": 1,
+    "PromptText": "仕事で困った時はどうしますか。",
+    "ModelAnswer": "一人で抱え込まずに先輩や同僚に相談します。",
+    "KoreanTranslation": "일하면서 곤란한 일이 생기면 어떻게 하나요?",
+    "RequiredKeywords": [
+      "相談",
+      "先輩",
+      "同僚",
+      "仕事",
+      "聞きます"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_sh_001",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "本件につきましては、社内で慎重に検討した上でご回答申し上げます。",
+    "ModelAnswer": "本件につきましては、社内で慎重に検討した上でご回答申し上げます。",
+    "KoreanTranslation": "본 건에 대해서는 사내에서 신중히 검토한 후 답변을 드리겠습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_002",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "平素は格別のご高配を賜り、心より厚く御礼申し上げます。",
+    "ModelAnswer": "平素は格別のご高配を賜り、心より厚く御礼申し上げます。",
+    "KoreanTranslation": "평소 각별한 배려를 베풀어 주셔서 진심으로 깊은 감사를 드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_003",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "お忙しいところ恐れ入りますが、ご査収のほどよろしくお願いいたします。",
+    "ModelAnswer": "お忙しいところ恐れ入りますが、ご査収のほどよろしくお願いいたします。",
+    "KoreanTranslation": "바쁘신 와중에 송구하오나, 확인해 주시기를 부탁드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_004",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "予期せぬトラブルが発生したため、納期の延期をお願いせざるを得ません。",
+    "ModelAnswer": "予期せぬトラブルが発生したため、納期の延期をお願いせざるを得ません。",
+    "KoreanTranslation": "예상치 못한 트러블이 발생했기 때문에 납기 연기를 요청하지 않을 수 없습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_005",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "持続可能な社会を実現するために、環境問題への取り組みを強化すべきです。",
+    "ModelAnswer": "持続可能な社会を実現するために、環境問題への取り組みを強化すべきです。",
+    "KoreanTranslation": "지속 가능한 사회를 실현하기 위해 환경 문제에 대한 대응을 강화해야 합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_006",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "双方の合意に基づき、来期より新たな提携プロジェクトを発足いたします。",
+    "ModelAnswer": "双方の合意に基づき、来期より新たな提携プロジェクトを発足いたします。",
+    "KoreanTranslation": "양측의 합의에 기반하여 차기부터 새로운 제휴 프로젝트를 출범합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_007",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "市場の急激な変化に柔軟に対応できる組織体制を構築することが急務です。",
+    "ModelAnswer": "市場の急激な変化に柔軟に対応できる組織体制を構築することが急務です。",
+    "KoreanTranslation": "시장의 급격한 변화에 유연하게 대응할 수 있는 조직 체계를 구축하는 것이 시급합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_008",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "お客様の多様なニーズを的確に把握し、質の高いサービスを提供してまいります。",
+    "ModelAnswer": "お客様の多様なニーズを的確に把握し、質の高いサービスを提供してまいります。",
+    "KoreanTranslation": "고객의 다양한 요구를 정확히 파악하여 질 높은 서비스를 제공해 나가겠습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_009",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "長年にわたるご尽力に対し、社員一同深く敬意を表します。",
+    "ModelAnswer": "長年にわたるご尽力に対し、社員一同深く敬意を表します。",
+    "KoreanTranslation": "수년간에 걸친 노고에 대해 임직원 일동 깊은 경의를 표합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_010",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "デジタル技術の導入によって、業務効率の大幅な向上が期待されています。",
+    "ModelAnswer": "デジタル技術の導入によって、業務効率の大幅な向上が期待されています。",
+    "KoreanTranslation": "디지털 기술 도입을 통해 업무 효율의 대폭적인 향상이 기대되고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_011",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "今回の不祥事を真摯に受け止め、再発防止策を徹底してまいります。",
+    "ModelAnswer": "今回の不祥事を真摯に受け止め、再発防止策を徹底してまいります。",
+    "KoreanTranslation": "이번 불미스러운 사태를 진지하게 받아들이고 재발 방지책을 철저히 시행하겠습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_012",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "国際社会における相互理解を深めることが、平和への第一歩となります。",
+    "ModelAnswer": "国際社会における相互理解を深めることが、平和への第一歩となります。",
+    "KoreanTranslation": "국제사회에서의 상호 이해를 넓히는 것이 평화로의 첫걸음이 됩니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_013",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "技術革新のスピードに対応すべく、人材育成に力を注いでおります。",
+    "ModelAnswer": "技術革新のスピードに対応すべく、人材育成に力を注いでおります。",
+    "KoreanTranslation": "기술 혁신의 속도에 발맞추기 위해 인재 육성에 힘을 쏟고 있습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_014",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "誠に遺憾ではございますが、ご期待に添えない結果となりましたことをお詫び申し上げます。",
+    "ModelAnswer": "誠に遺憾ではございますが、ご期待に添えない結果となりましたことをお詫び申し上げます。",
+    "KoreanTranslation": "대단히 유감스럽게도 기대에 부응하지 못한 결과가 된 점 사과드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_015",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "今後の展望を踏まえ、戦略的な投資を進めていく方針です。",
+    "ModelAnswer": "今後の展望を踏まえ、戦略的な投資を進めていく方針です。",
+    "KoreanTranslation": "향후 전망을 토대로 전략적인 투자를 진행해 나갈 방침입니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_016",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "いかなる困難な状況下にあっても、品質への妥協は一切許されません。",
+    "ModelAnswer": "いかなる困難な状況下にあっても、品質への妥協は一切許されません。",
+    "KoreanTranslation": "어떠한 곤란한 상황에서도 품질에 대한 타협은 결코 용납되지 않습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_017",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "先方のご意향を十分に尊重しつつ、柔軟な提案を心がけてまいります。",
+    "ModelAnswer": "先方のご意향を十分に尊重しつつ、柔軟な提案を心がけてまいります。",
+    "KoreanTranslation": "상대방의 의향을 충분히 존중하면서 유연한 제안을 하도록 유의하겠습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_018",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "新規事業の立ち上げに向けて、綿密な市場調査を実施いたしました。",
+    "ModelAnswer": "新規事業の立ち上げに向けて、綿密な市場調査を実施いたしました。",
+    "KoreanTranslation": "신규 사업 개시를 위해 면밀한 시장 조사를 실시하였습니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_019",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "社員一人ひとりの創造性を最大限に引き出す環境づくりを目指します。",
+    "ModelAnswer": "社員一人ひとりの創造性を最大限に引き出す環境づくりを目指します。",
+    "KoreanTranslation": "직원 한 사람 한 사람의 창의성을 최대한 이끌어내는 환경 조성을 지향합니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_sh_020",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 0,
+    "PromptText": "本日ご多忙の折ご出席賜りました皆様に、深く感謝申し上げます。",
+    "ModelAnswer": "本日ご多忙の折ご出席賜りました皆様に、深く感謝申し上げます。",
+    "KoreanTranslation": "오늘 바쁘신 와중에 참석해 주신 여러분께 깊은 감사를 드립니다.",
+    "RequiredKeywords": []
+  },
+  {
+    "Id": "cur_ja_3_qa_001",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "提出された企画書についてのフィードバックはいかがでしょうか。",
+    "ModelAnswer": "非常に独創的ですが、採算性について再検討が必要と考えます。",
+    "KoreanTranslation": "제출된 기획서에 대한 피드백은 어떠한가요?",
+    "RequiredKeywords": [
+      "検討",
+      "採算",
+      "企画",
+      "独創的",
+      "フィードバック"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_002",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "今回の納期遅延に対するクライアントへの対応はどうしますか。",
+    "ModelAnswer": "早急に直接訪問し、経緯の説明と謝罪を行う所存でございます。",
+    "KoreanTranslation": "이번 납기 지연에 대한 고객사 대응은 어떻게 하시겠습니까?",
+    "RequiredKeywords": [
+      "謝罪",
+      "訪問",
+      "説明",
+      "対応",
+      "経緯"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_003",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "新規市場への進出に関するリスクマネジメントはどうなっていますか。",
+    "ModelAnswer": "現地の法規制を調査し、専門家の監修のもと進めております。",
+    "KoreanTranslation": "신규 시장 진출과 관련된 위험 관리는 어떻게 진행되고 있나요?",
+    "RequiredKeywords": [
+      "法規制",
+      "専門家",
+      "調査",
+      "リスク",
+      "進めて"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_004",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "業務効率化に向けたDXの推進状況を教えてください。",
+    "ModelAnswer": "基幹システムの刷新が進んでおり、来四半期に稼働予定です。",
+    "KoreanTranslation": "업무 효율화를 위한 DX 추진 상황을 말씀해 주시겠습니까?",
+    "RequiredKeywords": [
+      "システム",
+      "刷新",
+      "稼働",
+      "効率",
+      "推進"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_005",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "パートナー企業との提携交渉における留意点は何ですか。",
+    "ModelAnswer": "双方にとって持続可能なメリットを生み出す契約条件にすることです。",
+    "KoreanTranslation": "파트너사와의 제휴 협상에서 유의할 점은 무엇인가요?",
+    "RequiredKeywords": [
+      "メリット",
+      "持続可能",
+      "契約",
+      "提携",
+      "条件"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_006",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "不測の事態が発生した際のBCP対策は策定されていますか。",
+    "ModelAnswer": "はい、緊急時マニュアルを整備し、定期的な訓練を実施しています。",
+    "KoreanTranslation": "예기치 못한 사태 발생 시 BCP(업무연속성계획) 대책은 수립되어 있나요?",
+    "RequiredKeywords": [
+      "マニュアル",
+      "訓練",
+      "緊急",
+      "策定",
+      "対策"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_007",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "今年度の採用方針において最も重視する要素は何ですか。",
+    "ModelAnswer": "環境変化に柔軟に適応できる自律的な課題解決能力です。",
+    "KoreanTranslation": "올해 채용 방침에서 가장 중시하는 요소는 무엇인가요?",
+    "RequiredKeywords": [
+      "適応",
+      "解決",
+      "能力",
+      "採用",
+      "重視"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_008",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "海外拠点とのコミュニケーションを円滑にする工夫は何ですか。",
+    "ModelAnswer": "定期的なオンライン会議に加え、情報共有プラットフォームを活用しています。",
+    "KoreanTranslation": "해외 지사와의 소통을 원활하게 하기 위한 방안은 무엇인가요?",
+    "RequiredKeywords": [
+      "オンライン",
+      "共有",
+      "プラットフォーム",
+      "会議",
+      "コミュニケーション"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_009",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "社内の働き方改革における主要な成果は何ですか。",
+    "ModelAnswer": "テレワークの定着と有給休暇の取得率向上を実現いたしました。",
+    "KoreanTranslation": "사내 일하는 방식 개혁의 주요 성과는 무엇인가요?",
+    "RequiredKeywords": [
+      "テレワーク",
+      "有給",
+      "向上",
+      "改革",
+      "成果"
+    ]
+  },
+  {
+    "Id": "cur_ja_3_qa_010",
+    "Language": 1,
+    "Difficulty": 3,
+    "Mode": 1,
+    "PromptText": "今後のグローバル展開についてどのような戦略をお持ちですか。",
+    "ModelAnswer": "現地パートナーとの連携を深め、地域特性に合致した製品を展開します。",
+    "KoreanTranslation": "향후 글로벌 진출에 대해 어떠한 전략을 가지고 계신가요?",
+    "RequiredKeywords": [
+      "連携",
+      "パートナー",
+      "戦略",
+      "展開",
+      "製品"
+    ]
+  }
+]

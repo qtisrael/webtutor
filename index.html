@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>WebTutor - 오프라인 & 웹 영어/일본어 회화 튜터</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-left">
+                <div class="brand">
+                    <h1 class="logo">WebTutor <span class="logo-badge">ONLINE AI</span></h1>
+                    <span class="tech-badge">Web Speech API</span>
+                    <span class="tech-badge green">GitHub Pages Ready</span>
+                </div>
+                <p class="subtitle">
+                    브라우저 내장 음성 엔진 기반 즉시 실행 300문항 영어/일어 회화 튜터 (다운로드 0MB / 서버비용 0원)
+                    <span class="stats-text">• 학습 완료: <b id="stat-completed" class="stat-highlight">0문항</b></span>
+                    <span class="stats-text">• 평균 일치율: <b id="stat-average" class="stat-highlight green">0.0%</b></span>
+                </p>
+            </div>
+            <div class="header-right">
+                <div class="nav-control">
+                    <span class="control-label">문항 이동</span>
+                    <div class="nav-buttons">
+                        <button id="btn-prev" class="btn-nav" title="이전 문항 (←)">◀</button>
+                        <div class="counter-box" id="item-counter">1 / 10</div>
+                        <button id="btn-next" class="btn-nav" title="다음 문항 (→)">▶</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOOLBAR: SEGMENTED BUTTONS -->
+        <section class="toolbar-card">
+            <!-- 1. Language -->
+            <div class="button-group-block">
+                <span class="group-label">학습 언어</span>
+                <div class="pill-group" id="lang-group">
+                    <button class="pill-btn active" data-lang="en">🇺🇸 English</button>
+                    <button class="pill-btn" data-lang="ja">🇯🇵 日本語</button>
+                </div>
+            </div>
+
+            <!-- 2. Accent (English only) -->
+            <div class="button-group-block" id="accent-block">
+                <span class="group-label">영어 발음</span>
+                <div class="pill-group" id="accent-group">
+                    <button class="pill-btn active" data-accent="us">미국식 (US) 🇺🇸</button>
+                    <button class="pill-btn" data-accent="gb">영국식 (GB) 🇬🇧</button>
+                </div>
+            </div>
+
+            <!-- 3. Difficulty Level -->
+            <div class="button-group-block">
+                <span class="group-label">난이도 구분</span>
+                <div class="pill-group" id="diff-group">
+                    <button class="pill-btn diff-beg active" data-diff="1">🌱 초급 (Beginner)</button>
+                    <button class="pill-btn diff-int" data-diff="2">🌿 중급 (Intermediate)</button>
+                    <button class="pill-btn diff-adv" data-diff="3">🌳 고급 (Advanced)</button>
+                </div>
+            </div>
+
+            <!-- 4. Mode -->
+            <div class="button-group-block">
+                <span class="group-label">학습 모드</span>
+                <div class="pill-group" id="mode-group">
+                    <button class="pill-btn active" data-mode="0">🎧 쉐도잉 (따라하기)</button>
+                    <button class="pill-btn" data-mode="1">💬 Q&amp;A 드릴 (응답하기)</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAIN CARDS AREA -->
+        <main class="main-content">
+            <!-- CARD 1: Prompt & Native TTS -->
+            <div class="card prompt-card">
+                <div class="card-top-bar">
+                    <div class="badges-row">
+                        <span class="badge mode-badge" id="badge-mode">Shadowing</span>
+                        <span class="badge diff-badge" id="badge-diff">초급 (Beginner)</span>
+                        <span class="badge accent-badge" id="badge-accent">미국식 (US)</span>
+                        <span class="tts-meta-text">• 원어민 표준 발음 (Web Speech Audio)</span>
+                    </div>
+                    <div class="speed-controls">
+                        <span class="speed-label">재생 속도:</span>
+                        <div class="speed-buttons" id="speed-group">
+                            <button class="speed-btn" data-speed="0.8">0.8x</button>
+                            <button class="speed-btn active" data-speed="1.0">1.0x</button>
+                            <button class="speed-btn" data-speed="1.2">1.2x</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prompt-body">
+                    <div class="prompt-text" id="prompt-text">Hello, welcome to the speaking session.</div>
+                    <div class="korean-text" id="korean-text">안녕하세요, 말하기 세션에 오신 것을 환영합니다.</div>
+                </div>
+
+                <div class="prompt-footer">
+                    <button id="btn-play-tts" class="btn-primary">
+                        <span class="btn-icon">🔊</span>
+                        <span>원어민 음성 다시 듣기</span>
+                    </button>
+                    <div id="tts-status" class="tts-status hidden">🎵 음성 재생 중...</div>
+                </div>
+            </div>
+
+            <!-- CARD 2: Voice Input & Recording -->
+            <div class="card recording-card">
+                <div class="card-header-row">
+                    <span class="section-title">사용자 발화 입력 (Web Speech API 마이크 녹음 및 STT)</span>
+                    <button id="btn-mock-test" class="btn-secondary" title="마이크 없이 즉시 채점 시연">⚡ 모의 발화 테스트</button>
+                </div>
+
+                <div class="record-control-row">
+                    <button id="btn-record-toggle" class="btn-record">
+                        <span id="record-icon" class="rec-icon">🎤</span>
+                        <span id="record-btn-text">발화 시작 (말하기)</span>
+                    </button>
+
+                    <div class="mic-level-box">
+                        <div class="mic-label-row">
+                            <span class="mic-label">마이크 입력 레벨</span>
+                            <span id="mic-level-value" class="mic-val">0%</span>
+                        </div>
+                        <div class="meter-track">
+                            <div id="mic-meter-bar" class="meter-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="stt-status-banner" class="status-banner hidden">
+                    ⏳ 브라우저 음성 인식 엔진으로 사용자의 발화를 실시간 변환하고 있습니다...
+                </div>
+            </div>
+
+            <!-- CARD 3: Result & Evaluation -->
+            <div class="card result-card">
+                <div class="card-header-row">
+                    <div>
+                        <div class="section-title">실시간 발화 평가 결과</div>
+                        <div class="section-sub">Levenshtein 거리 및 핵심 키워드 매칭 분석</div>
+                    </div>
+                    <div id="score-badge" class="score-badge neutral">
+                        <span>일치율 / 점수: </span>
+                        <strong id="score-value">0.0%</strong>
+                    </div>
+                </div>
+
+                <div class="recognized-box">
+                    <div class="box-label">인식된 발화 내용 (Web Speech STT):</div>
+                    <div id="recognized-text" class="recognized-content">(아직 발화가 입력되지 않았습니다)</div>
+                </div>
+
+                <!-- Word Diff Chips -->
+                <div id="diff-chips-container" class="diff-chips-row"></div>
+
+                <!-- Feedback Banner -->
+                <div id="feedback-banner" class="feedback-box">
+                    <span class="feedback-icon">💡</span>
+                    <span id="feedback-message">원어민 음성을 듣고 [발화 시작] 버튼을 눌러 따라 말해보세요.</span>
+                </div>
+
+                <!-- Model Comparison Text -->
+                <div id="model-comparison" class="comparison-text"></div>
+            </div>
+        </main>
+
+        <!-- FOOTER STATUS BAR -->
+        <footer class="footer">
+            <div class="footer-status">
+                <span id="status-dot" class="status-dot"></span>
+                <span id="status-message">준비 완료 (단축키: [Space] 다시 듣기, [F5] 녹음, [←/→] 문항 이동, [Ctrl+M] 모의 발화)</span>
+            </div>
+            <div class="footer-meta">
+                WebTutor v1.0 • 100% Free GitHub Pages Ready
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
