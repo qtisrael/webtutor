@@ -7,6 +7,7 @@ const ASSETS_TO_CACHE = [
   './app.js',
   './manifest.json',
   './icon.svg',
+  './data/curriculum.js',
   './data/curriculum.json'
 ];
 

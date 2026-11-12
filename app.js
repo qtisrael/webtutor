@@ -135,17 +135,25 @@ window.addEventListener('DOMContentLoaded', async () => {
 
 // --- LOAD CURRICULUM ---
 async function loadCurriculum() {
+    // 1. Direct JS bundle check (works 100% on file:/// and HTTP without CORS issues)
+    if (window.CURRICULUM_DATA && Array.isArray(window.CURRICULUM_DATA) && window.CURRICULUM_DATA.length > 0) {
+        allCurriculum = window.CURRICULUM_DATA;
+        console.log(`Loaded ${allCurriculum.length} curriculum items from window.CURRICULUM_DATA.`);
+        return;
+    }
+
+    // 2. Fetch fallback (for HTTP/HTTPS server environments)
     try {
         const response = await fetch('data/curriculum.json');
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
         }
         allCurriculum = await response.json();
-        console.log(`Loaded ${allCurriculum.length} curriculum items successfully.`);
+        console.log(`Loaded ${allCurriculum.length} curriculum items successfully via fetch.`);
     } catch (err) {
-        console.warn('Could not load data/curriculum.json via fetch (likely opened directly as file:///), using fallback samples:', err);
+        console.warn('Could not load data/curriculum.json via fetch, using fallback samples:', err);
         allCurriculum = FALLBACK_ITEMS;
-        setStatus('⚠️ 로컬 파일(file://) 모드로 실행 중: 샘플 문항이 로드되었습니다. 전체 300문항은 HTTP 웹서버 또는 GitHub Pages에서 로드됩니다.');
+        setStatus('⚠️ 로컬 파일(file://) 모드로 실행 중: 샘플 문항이 로드되었습니다.');
     }
 }
 
