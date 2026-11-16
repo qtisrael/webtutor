@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Grammar In Use - 영국 영어 핸즈프리 오디오 쉐도잉 튜터</title>
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="header-brand">
+                <div class="brand-row">
+                    <span class="flag-icon">🇬🇧</span>
+                    <h1 class="brand-title">Grammar In Use <span class="brand-sub">Hands-Free Audio Tutor</span></h1>
+                    <span class="badge badge-accent">100% Native Audio</span>
+                    <span class="badge badge-handsfree">Hands-Free Auto Loop</span>
+                </div>
+                <p class="brand-desc">
+                    원어민 영국 발음 듣기 ➔ 챠임벨 ➔ 따라 말하기 ➔ 자동 채점 ➔ 다음 문장까지 <b>클릭 없이 무한 자동 진행</b>!
+                </p>
+            </div>
+            <div class="header-stats">
+                <button id="btn-theme-toggle" class="btn-theme-toggle" title="화면 테마 변경 (라이트/다크)">
+                    <span id="theme-icon">☀️</span>
+                    <span id="theme-text">라이트</span>
+                </button>
+                <div class="stat-box">
+                    <span class="stat-label">학습 통과</span>
+                    <span class="stat-value" id="stat-completed">0 / 265</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">평균 일치율</span>
+                    <span class="stat-value text-green" id="stat-average">0.0%</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOOLBAR -->
+        <nav class="toolbar">
+            <div class="toolbar-section">
+                <span class="toolbar-label">챕터:</span>
+                <div class="pill-group" id="chapter-group">
+                    <button class="pill-btn active" data-chapter="1">
+                        🎧 Chapter 1 (Units 1~7) <span class="pill-count">103문장</span>
+                    </button>
+                    <button class="pill-btn" data-chapter="2">
+                        🎧 Chapter 2 (Units 8~22) <span class="pill-count">162문장</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="toolbar-section">
+                <span class="toolbar-label">유닛:</span>
+                <select id="unit-select" class="select-dropdown">
+                    <option value="all">전체 유닛 보기 (All Units)</option>
+                </select>
+            </div>
+
+            <div class="toolbar-section settings-box">
+                <span class="toolbar-label">정지 여유:</span>
+                <select id="stop-offset-select" class="select-dropdown-small" title="문장 끝이 다음 문장으로 넘어가지 않도록 일찍 멈추는 간격">
+                    <option value="0.2">0.2초</option>
+                    <option value="0.35" selected>0.35초 (권장)</option>
+                    <option value="0.5">0.5초</option>
+                </select>
+            </div>
+
+            <div class="toolbar-section nav-controls">
+                <button id="btn-prev" class="btn-nav" title="이전 문장 (←)">◀ 이전</button>
+                <span class="counter-display" id="item-counter">1 / 103</span>
+                <button id="btn-next" class="btn-nav" title="다음 문장 (→)">다음 ▶</button>
+            </div>
+        </nav>
+
+        <!-- MAIN AUDIO-FIRST WORKSPACE -->
+        <main class="workspace-card">
+            <!-- TOP: Hands-Free Primary Master Control -->
+            <div class="handsfree-master-bar">
+                <button id="btn-master-handsfree" class="btn-master-start">
+                    <span class="master-icon" id="master-icon">▶</span>
+                    <span class="master-text" id="master-text">핸즈프리 자동 학습 시작</span>
+                    <span class="master-sub">손대지 않고 귀로 듣고 입으로 계속 말하기</span>
+                </button>
+
+                <div class="handsfree-status-badge" id="handsfree-status-badge">
+                    <span class="status-dot-pulse"></span>
+                    <span id="handsfree-step-text">대기 중 (위 시작 버튼을 누르면 자동 루프가 시작됩니다)</span>
+                </div>
+            </div>
+
+            <!-- AUDIO VISUALIZER & TIMING CARD -->
+            <div class="audio-visualizer-card">
+                <div class="visualizer-header">
+                    <div class="unit-info">
+                        <span class="unit-tag" id="unit-tag">Unit 1: Daily routines</span>
+                        <span class="sentence-id" id="sentence-id">giu_ch1_001</span>
+                    </div>
+                    <div class="audio-timing-badge" id="audio-timing-badge">
+                        ⏱️ 00:00.0 ~ 00:03.1 (3.15s)
+                    </div>
+                </div>
+
+                <!-- Canvas Soundwave Visualizer -->
+                <div class="canvas-wrapper">
+                    <canvas id="visualizer-canvas" width="800" height="90"></canvas>
+                    <div id="audio-playing-indicator" class="audio-state-tag hidden">
+                        🔊 원어민 영국 발음 재생 중...
+                    </div>
+                    <div id="mic-listening-indicator" class="audio-state-tag mic hidden">
+                        🎙️ 귀 기울여 듣고 있습니다... 따라 말씀하세요!
+                    </div>
+                </div>
+
+                <!-- Audio Sub-controls -->
+                <div class="audio-sub-controls">
+                    <button id="btn-replay-audio" class="btn-tool" title="현재 문장 다시 듣기 (Space)">
+                        <span>🔊 다시 듣기 (Space)</span>
+                    </button>
+                    <button id="btn-manual-record" class="btn-tool" title="수동 발화 녹음 (F5)">
+                        <span>🎤 수동 녹음 (F5)</span>
+                    </button>
+                    <button id="btn-mock-test" class="btn-tool ghost" title="마이크 없이 즉시 채점 시연 (Ctrl+M)">
+                        <span>⚡ 모의 발화</span>
+                    </button>
+
+                    <div class="speed-toggle-group">
+                        <span class="control-caption">재생 속도:</span>
+                        <button class="btn-speed" data-speed="0.8">0.8x</button>
+                        <button class="btn-speed active" data-speed="1.0">1.0x</button>
+                        <button class="btn-speed" data-speed="1.2">1.2x</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROMPT SENTENCE CARD -->
+            <div class="sentence-card">
+                <h2 class="english-sentence" id="english-sentence">She is driving to work.</h2>
+                <p class="korean-sentence" id="korean-sentence">그녀는 차를 몰고 출근하고 있습니다.</p>
+            </div>
+
+            <!-- RECOGNITION & EVALUATION RESULT -->
+            <div class="evaluation-card">
+                <div class="eval-header">
+                    <div class="user-transcript-box">
+                        <span class="eval-caption">인식된 사용자 발화:</span>
+                        <div class="transcript-content" id="transcript-content">(원어민 음성을 듣고 말씀해보세요)</div>
+                    </div>
+                    <div class="eval-score-badge" id="eval-score-badge">
+                        <span class="score-label">일치율</span>
+                        <strong class="score-val" id="score-val">0.0%</strong>
+                    </div>
+                </div>
+
+                <!-- Word Diff Chips -->
+                <div class="diff-chips-container" id="diff-chips-container"></div>
+
+                <!-- Feedback & Auto-Next Progress -->
+                <div class="feedback-row" id="feedback-row">
+                    <span class="feedback-icon" id="feedback-icon">💡</span>
+                    <span class="feedback-msg" id="feedback-msg">
+                        [핸즈프리 자동 학습 시작]을 누르면 원어민 발음 청취부터 채점, 다음 문장까지 무한 자동 순환됩니다.
+                    </span>
+                </div>
+
+                <!-- Auto-next Countdown Progress Bar -->
+                <div id="auto-next-bar-wrapper" class="auto-next-wrapper hidden">
+                    <div class="auto-next-text">
+                        <span>🎉 통과! 1.2초 후 다음 문장으로 자동 이동합니다...</span>
+                        <span id="countdown-number">1.2s</span>
+                    </div>
+                    <div class="auto-next-track">
+                        <div id="auto-next-fill" class="auto-next-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <div class="footer-left">
+                <span class="status-indicator" id="status-indicator"></span>
+                <span id="footer-status-text">준비 완료 (단축키: [Space] 다시 듣기, [F5] 녹음, [←/→] 이동, [Ctrl+M] 모의 발화)</span>
+            </div>
+            <div class="footer-right">
+                Grammar In Use British Audio Shadowing • Hands-Free Edition
+            </div>
+        </footer>
+    </div>
+
+    <!-- Hidden Native Audio Elements (High Performance HTML5 Audio) -->
+    <audio id="native-audio" preload="auto"></audio>
+
+    <!-- Curriculum Data -->
+    <script src="data/curriculum.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>

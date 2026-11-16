@@ -1,0 +1,17 @@
+{
+  "name": "Grammar In Use - 영국 영어 쉐도잉 튜터",
+  "short_name": "GIU Tutor",
+  "description": "핸즈프리 영국 원어민 오디오 쉐도잉 & 실시간 AI 발음 채점",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
