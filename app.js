@@ -426,21 +426,31 @@ function resetEvaluationView() {
 }
 
 function selectChapter(chNum) {
+    if (currentChapter === chNum) return;
+
+    cancelPendingTimers();
+    stopAudioPlayback();
+    if (isRecording) {
+        stopRecording();
+    }
+    if (isHandsFreeActive) {
+        stopHandsFreeMaster();
+    }
+
     currentChapter = chNum;
     currentUnitFilter = 'all';
 
     // Update chip active classes and scroll into view
-    if (elements.chapterChips) {
-        elements.chapterChips.forEach(chip => {
-            const num = parseInt(chip.dataset.chapter, 10);
-            if (num === chNum) {
-                chip.classList.add('active');
-                chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-            } else {
-                chip.classList.remove('active');
-            }
-        });
-    }
+    const chips = document.querySelectorAll('#chapter-button-group .chapter-chip');
+    chips.forEach(chip => {
+        const num = parseInt(chip.dataset.chapter, 10);
+        if (num === chNum) {
+            chip.classList.add('active');
+            chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+            chip.classList.remove('active');
+        }
+    });
 
     // Update active banner
     if (elements.activeChapterTitle) {
@@ -455,6 +465,7 @@ function selectChapter(chNum) {
 
     populateUnitDropdown();
     applyFilter();
+    setMasterStatus(`📖 Chapter ${chNum} 교재로 전환되었습니다.`);
 }
 
 // --- PRECISION NATIVE AUDIO SEGMENT PLAYBACK ---
@@ -917,25 +928,26 @@ function setupEventListeners() {
         toggleHandsFreeMaster();
     });
 
-    // Chapter Selection Dropdown
-    if (elements.chapterSelect) {
-        elements.chapterSelect.addEventListener('change', (e) => {
-            currentChapter = parseInt(e.target.value, 10);
-            currentUnitFilter = 'all';
-
-            // Switch audio source
-            if (nativeAudio) {
-                nativeAudio.src = AUDIO_SOURCES[currentChapter];
-                nativeAudio.load();
+    // Chapter Selection (Touch-friendly Chip Buttons)
+    const chapterGroup = document.getElementById('chapter-button-group');
+    if (chapterGroup) {
+        chapterGroup.addEventListener('click', (e) => {
+            const chip = e.target.closest('.chapter-chip');
+            if (chip && chip.dataset.chapter) {
+                const chNum = parseInt(chip.dataset.chapter, 10);
+                if (!isNaN(chNum)) {
+                    selectChapter(chNum);
+                }
             }
-
-            populateUnitDropdown();
-            applyFilter();
         });
     }
 
     // Unit Dropdown
     elements.unitSelect.addEventListener('change', (e) => {
+        cancelPendingTimers();
+        stopAudioPlayback();
+        if (isRecording) stopRecording();
+        if (isHandsFreeActive) stopHandsFreeMaster();
         currentUnitFilter = e.target.value;
         applyFilter();
     });
