@@ -323,6 +323,12 @@ body {
     max-width: 250px;
 }
 
+.chapter-select {
+    max-width: 320px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
 .select-dropdown-small {
     background: var(--bg-card-subtle);
     color: var(--primary);

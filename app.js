@@ -6,7 +6,10 @@
 // --- GLOBAL STATE ---
 let currentChapter = 1;
 let currentUnitFilter = 'all';
-let allChapterData = { 1: [], 2: [] };
+let allChapterData = {};
+for (let i = 1; i <= 16; i++) {
+    allChapterData[i] = [];
+}
 let filteredItems = [];
 let currentIndex = 0;
 
@@ -40,10 +43,10 @@ let analyserNode = null;
 let visualizerAnimFrame = null;
 
 // Audio files
-const AUDIO_SOURCES = {
-    1: 'audio/chapter1.m4a',
-    2: 'audio/chapter2.m4a'
-};
+const AUDIO_SOURCES = {};
+for (let i = 1; i <= 16; i++) {
+    AUDIO_SOURCES[i] = `audio/chapter${i}.m4a`;
+}
 
 // --- DOM ELEMENTS ---
 const elements = {
@@ -53,7 +56,7 @@ const elements = {
     statCompleted: document.getElementById('stat-completed'),
     statAverage: document.getElementById('stat-average'),
 
-    chapterButtons: document.querySelectorAll('#chapter-group .pill-btn'),
+    chapterSelect: document.getElementById('chapter-select'),
     unitSelect: document.getElementById('unit-select'),
     stopOffsetSelect: document.getElementById('stop-offset-select'),
     btnPrev: document.getElementById('btn-prev'),
@@ -298,22 +301,27 @@ function stopVisualizerAnimation() {
 
 // --- DATA LOADER ---
 async function loadCurriculum() {
-    if (window.GRAMMAR_CHAPTERS && window.GRAMMAR_CHAPTERS.chapter1) {
-        allChapterData[1] = window.GRAMMAR_CHAPTERS.chapter1;
-        allChapterData[2] = window.GRAMMAR_CHAPTERS.chapter2;
-        console.log(`Loaded ${allChapterData[1].length + allChapterData[2].length} items from window.GRAMMAR_CHAPTERS.`);
+    if (window.GRAMMAR_CHAPTERS) {
+        let totalCount = 0;
+        for (let i = 1; i <= 16; i++) {
+            allChapterData[i] = window.GRAMMAR_CHAPTERS[`chapter${i}`] || [];
+            totalCount += allChapterData[i].length;
+        }
+        console.log(`Loaded ${totalCount} items across all 16 chapters from window.GRAMMAR_CHAPTERS.`);
         return;
     }
 
     try {
-        const [res1, res2] = await Promise.all([
-            fetch('data/chapter1.json'),
-            fetch('data/chapter2.json')
-        ]);
-        if (res1.ok && res2.ok) {
-            allChapterData[1] = await res1.json();
-            allChapterData[2] = await res2.json();
+        const fetchPromises = [];
+        for (let i = 1; i <= 16; i++) {
+            fetchPromises.push(
+                fetch(`data/chapter${i}.json`).then(r => r.ok ? r.json() : []).catch(() => [])
+            );
         }
+        const results = await Promise.all(fetchPromises);
+        results.forEach((data, idx) => {
+            allChapterData[idx + 1] = data;
+        });
     } catch (err) {
         console.warn('Could not load curriculum JSON:', err);
     }
@@ -818,8 +826,12 @@ function setMasterStatus(text) {
 }
 
 function updateStatistics() {
-    const totalCount = (allChapterData[1].length + allChapterData[2].length) || 265;
-    elements.statCompleted.textContent = `${completedSet.size} / ${totalCount}`;
+    let totalCount = 0;
+    for (let i = 1; i <= 16; i++) {
+        totalCount += (allChapterData[i] || []).length;
+    }
+    if (totalCount === 0) totalCount = 3646;
+    elements.statCompleted.textContent = `${completedSet.size} / ${totalCount.toLocaleString()}`;
 
     let totalScore = 0;
     scoresMap.forEach(score => totalScore += score);
@@ -852,12 +864,10 @@ function setupEventListeners() {
         toggleHandsFreeMaster();
     });
 
-    // Chapter Buttons
-    elements.chapterButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            elements.chapterButtons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentChapter = parseInt(btn.dataset.chapter, 10);
+    // Chapter Selection Dropdown
+    if (elements.chapterSelect) {
+        elements.chapterSelect.addEventListener('change', (e) => {
+            currentChapter = parseInt(e.target.value, 10);
             currentUnitFilter = 'all';
 
             // Switch audio source
@@ -869,7 +879,7 @@ function setupEventListeners() {
             populateUnitDropdown();
             applyFilter();
         });
-    });
+    }
 
     // Unit Dropdown
     elements.unitSelect.addEventListener('change', (e) => {
