@@ -45,30 +45,98 @@
             </div>
         </header>
 
-        <!-- TOOLBAR -->
-        <nav class="toolbar">
-            <div class="toolbar-section">
-                <span class="toolbar-label">챕터:</span>
-                <select id="chapter-select" class="select-dropdown chapter-select">
-                    <option value="1">Chapter 1: Present &amp; Past Tenses (103문장)</option>
-                    <option value="2">Chapter 2: Present Perfect &amp; Past (162문장)</option>
-                    <option value="3">Chapter 3: Future Forms (176문장)</option>
-                    <option value="4">Chapter 4: Modals (377문장)</option>
-                    <option value="5">Chapter 5: Conditionals &amp; Wish (137문장)</option>
-                    <option value="6">Chapter 6: Passive Voice (114문장)</option>
-                    <option value="7">Chapter 7: Reported Speech (53문장)</option>
-                    <option value="8">Chapter 8: Questions &amp; Auxiliary Verbs (143문장)</option>
-                    <option value="9">Chapter 9: -ing &amp; to-infinitive (419문장)</option>
-                    <option value="10">Chapter 10: Articles &amp; Nouns (258문장)</option>
-                    <option value="11">Chapter 11: Pronouns &amp; Determiners (294문장)</option>
-                    <option value="12">Chapter 12: Relative Clauses (136문장)</option>
-                    <option value="13">Chapter 13: Adjectives &amp; Adverbs (401문장)</option>
-                    <option value="14">Chapter 14: Conjunctions &amp; Prepositions (238문장)</option>
-                    <option value="15">Chapter 15: Prepositions of Time &amp; Place (379문장)</option>
-                    <option value="16">Chapter 16: Phrasal Verbs (256문장)</option>
-                </select>
+        <!-- CHAPTER BUTTONS (TOUCH-FRIENDLY HORIZONTAL BAR) -->
+        <section class="chapter-bar-section">
+            <div class="chapter-scroll-bar" id="chapter-button-group">
+                <button class="chapter-chip active" data-chapter="1">
+                    <span class="chip-num">Ch 1</span>
+                    <span class="chip-title">시제</span>
+                    <span class="chip-count">103</span>
+                </button>
+                <button class="chapter-chip" data-chapter="2">
+                    <span class="chip-num">Ch 2</span>
+                    <span class="chip-title">완료</span>
+                    <span class="chip-count">162</span>
+                </button>
+                <button class="chapter-chip" data-chapter="3">
+                    <span class="chip-num">Ch 3</span>
+                    <span class="chip-title">미래</span>
+                    <span class="chip-count">176</span>
+                </button>
+                <button class="chapter-chip" data-chapter="4">
+                    <span class="chip-num">Ch 4</span>
+                    <span class="chip-title">조동사</span>
+                    <span class="chip-count">377</span>
+                </button>
+                <button class="chapter-chip" data-chapter="5">
+                    <span class="chip-num">Ch 5</span>
+                    <span class="chip-title">조건/가정</span>
+                    <span class="chip-count">137</span>
+                </button>
+                <button class="chapter-chip" data-chapter="6">
+                    <span class="chip-num">Ch 6</span>
+                    <span class="chip-title">수동태</span>
+                    <span class="chip-count">114</span>
+                </button>
+                <button class="chapter-chip" data-chapter="7">
+                    <span class="chip-num">Ch 7</span>
+                    <span class="chip-title">간접화법</span>
+                    <span class="chip-count">53</span>
+                </button>
+                <button class="chapter-chip" data-chapter="8">
+                    <span class="chip-num">Ch 8</span>
+                    <span class="chip-title">의문문</span>
+                    <span class="chip-count">143</span>
+                </button>
+                <button class="chapter-chip" data-chapter="9">
+                    <span class="chip-num">Ch 9</span>
+                    <span class="chip-title">동명사</span>
+                    <span class="chip-count">419</span>
+                </button>
+                <button class="chapter-chip" data-chapter="10">
+                    <span class="chip-num">Ch 10</span>
+                    <span class="chip-title">관사/명사</span>
+                    <span class="chip-count">258</span>
+                </button>
+                <button class="chapter-chip" data-chapter="11">
+                    <span class="chip-num">Ch 11</span>
+                    <span class="chip-title">대명사</span>
+                    <span class="chip-count">294</span>
+                </button>
+                <button class="chapter-chip" data-chapter="12">
+                    <span class="chip-num">Ch 12</span>
+                    <span class="chip-title">관계사</span>
+                    <span class="chip-count">136</span>
+                </button>
+                <button class="chapter-chip" data-chapter="13">
+                    <span class="chip-num">Ch 13</span>
+                    <span class="chip-title">형용사/부사</span>
+                    <span class="chip-count">401</span>
+                </button>
+                <button class="chapter-chip" data-chapter="14">
+                    <span class="chip-num">Ch 14</span>
+                    <span class="chip-title">접속사</span>
+                    <span class="chip-count">238</span>
+                </button>
+                <button class="chapter-chip" data-chapter="15">
+                    <span class="chip-num">Ch 15</span>
+                    <span class="chip-title">전치사</span>
+                    <span class="chip-count">379</span>
+                </button>
+                <button class="chapter-chip" data-chapter="16">
+                    <span class="chip-num">Ch 16</span>
+                    <span class="chip-title">구동사</span>
+                    <span class="chip-count">256</span>
+                </button>
             </div>
+            <div class="active-chapter-banner">
+                <span class="banner-badge">선택된 챕터</span>
+                <strong id="active-chapter-title">Chapter 1: Present &amp; Past (현재와 과거 시제)</strong>
+            </div>
+        </section>
 
+        <!-- SUB TOOLBAR (UNIT, STOP GAP, NAV) -->
+        <nav class="toolbar">
             <div class="toolbar-section">
                 <span class="toolbar-label">유닛:</span>
                 <select id="unit-select" class="select-dropdown">
@@ -86,9 +154,9 @@
             </div>
 
             <div class="toolbar-section nav-controls">
-                <button id="btn-prev" class="btn-nav" title="이전 문장 (←)">◀ 이전</button>
+                <button id="btn-prev" class="btn-nav" title="이전 문장 (←)">◀</button>
                 <span class="counter-display" id="item-counter">1 / 103</span>
-                <button id="btn-next" class="btn-nav" title="다음 문장 (→)">다음 ▶</button>
+                <button id="btn-next" class="btn-nav" title="다음 문장 (→)">▶</button>
             </div>
         </nav>
 

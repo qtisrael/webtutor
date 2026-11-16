@@ -48,6 +48,26 @@ for (let i = 1; i <= 16; i++) {
     AUDIO_SOURCES[i] = `audio/chapter${i}.m4a`;
 }
 
+// Chapter Titles
+const CHAPTER_TITLES = {
+    1: "Chapter 1: Present & Past Tenses (현재 및 과거 시제)",
+    2: "Chapter 2: Present Perfect & Past (현재완료 및 과거완료)",
+    3: "Chapter 3: Future Forms (미래 표현 - will, going to)",
+    4: "Chapter 4: Modals (조동사 - can, could, must, should)",
+    5: "Chapter 5: Conditionals & Wish (조건문 및 가정법)",
+    6: "Chapter 6: Passive Voice (수동태)",
+    7: "Chapter 7: Reported Speech (간접 화법)",
+    8: "Chapter 8: Questions & Auxiliary Verbs (의문문 및 조동사)",
+    9: "Chapter 9: -ing & to-infinitive (동명사와 부정사)",
+    10: "Chapter 10: Articles & Nouns (관사 및 명사)",
+    11: "Chapter 11: Pronouns & Determiners (대명사와 한정사)",
+    12: "Chapter 12: Relative Clauses (관계사절)",
+    13: "Chapter 13: Adjectives & Adverbs (형용사와 부사, 비교급)",
+    14: "Chapter 14: Conjunctions & Prepositions (접속사와 전치사)",
+    15: "Chapter 15: Prepositions of Time & Place (시간/장소 전치사)",
+    16: "Chapter 16: Phrasal Verbs (구동사 / 이어동사)"
+};
+
 // --- DOM ELEMENTS ---
 const elements = {
     btnThemeToggle: document.getElementById('btn-theme-toggle'),
@@ -56,7 +76,8 @@ const elements = {
     statCompleted: document.getElementById('stat-completed'),
     statAverage: document.getElementById('stat-average'),
 
-    chapterSelect: document.getElementById('chapter-select'),
+    chapterChips: document.querySelectorAll('#chapter-button-group .chapter-chip'),
+    activeChapterTitle: document.getElementById('active-chapter-title'),
     unitSelect: document.getElementById('unit-select'),
     stopOffsetSelect: document.getElementById('stop-offset-select'),
     btnPrev: document.getElementById('btn-prev'),
@@ -402,6 +423,38 @@ function resetEvaluationView() {
     elements.feedbackIcon.textContent = "💡";
     elements.feedbackMsg.textContent = "[핸즈프리 자동 학습 시작]을 누르면 원어민 발음 청취부터 채점, 다음 문장까지 무한 자동 순환됩니다.";
     elements.autoNextBarWrapper.classList.add('hidden');
+}
+
+function selectChapter(chNum) {
+    currentChapter = chNum;
+    currentUnitFilter = 'all';
+
+    // Update chip active classes and scroll into view
+    if (elements.chapterChips) {
+        elements.chapterChips.forEach(chip => {
+            const num = parseInt(chip.dataset.chapter, 10);
+            if (num === chNum) {
+                chip.classList.add('active');
+                chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            } else {
+                chip.classList.remove('active');
+            }
+        });
+    }
+
+    // Update active banner
+    if (elements.activeChapterTitle) {
+        elements.activeChapterTitle.textContent = CHAPTER_TITLES[chNum] || `Chapter ${chNum}`;
+    }
+
+    // Switch audio source
+    if (nativeAudio) {
+        nativeAudio.src = AUDIO_SOURCES[currentChapter];
+        nativeAudio.load();
+    }
+
+    populateUnitDropdown();
+    applyFilter();
 }
 
 // --- PRECISION NATIVE AUDIO SEGMENT PLAYBACK ---
