@@ -480,7 +480,10 @@ function playCurrentSentenceAudio(onFinished) {
     const offsetVal = isNaN(stopOffset) ? 0.0 : stopOffset;
     const effectiveEndTime = Math.max(item.startTime + 0.4, item.endTime - offsetVal);
 
-    nativeAudio.currentTime = item.startTime;
+    // Safe lead-in buffer (extra 0.05s to ensure hardware audio ramp-up does not clip initial consonant)
+    const effectiveStartTime = Math.max(0.0, item.startTime - 0.05);
+
+    nativeAudio.currentTime = effectiveStartTime;
     nativeAudio.playbackRate = currentSpeed;
 
     elements.audioPlayingIndicator.classList.remove('hidden');
