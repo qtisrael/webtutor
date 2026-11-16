@@ -475,9 +475,10 @@ function playCurrentSentenceAudio(onFinished) {
 
     stopAudioPlayback();
 
-    // Check stop safety gap
-    const stopOffset = parseFloat(elements.stopOffsetSelect.value) || 0.35;
-    const effectiveEndTime = Math.max(item.startTime + 0.6, item.endTime - stopOffset);
+    // Precision audio segment boundary
+    const stopOffset = elements.stopOffsetSelect ? parseFloat(elements.stopOffsetSelect.value) : 0.0;
+    const offsetVal = isNaN(stopOffset) ? 0.0 : stopOffset;
+    const effectiveEndTime = Math.max(item.startTime + 0.4, item.endTime - offsetVal);
 
     nativeAudio.currentTime = item.startTime;
     nativeAudio.playbackRate = currentSpeed;

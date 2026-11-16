@@ -146,10 +146,11 @@
 
             <div class="toolbar-section settings-box">
                 <span class="toolbar-label">정지 여유:</span>
-                <select id="stop-offset-select" class="select-dropdown-small" title="문장 끝이 다음 문장으로 넘어가지 않도록 일찍 멈추는 간격">
-                    <option value="0.2">0.2초</option>
-                    <option value="0.35" selected>0.35초 (권장)</option>
-                    <option value="0.5">0.5초</option>
+                <select id="stop-offset-select" class="select-dropdown-small" title="문장 끝 발음 후 정지 시점 조절">
+                    <option value="0.0" selected>자연 정지 (0초)</option>
+                    <option value="0.1">-0.1초 짧게</option>
+                    <option value="-0.1">+0.1초 여유있게</option>
+                    <option value="-0.2">+0.2초 여유있게</option>
                 </select>
             </div>
 
