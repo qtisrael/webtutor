@@ -6,10 +6,10 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 0.22,
-    "endTime": 2.75,
-    "duration": 2.53,
-    "english": "Shall we go by bus or by train?",
+    "startTime": 0.44,
+    "endTime": 1.79,
+    "duration": 1.35,
+    "english": "Shall we go by bus?",
     "korean": "버스로 갈까요, 기차로 갈까요?"
   },
   {
@@ -19,10 +19,10 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 3.18,
-    "endTime": 4.65,
-    "duration": 1.47,
-    "english": "If we go by bus.",
+    "startTime": 1.83,
+    "endTime": 2.87,
+    "duration": 1.04,
+    "english": "Or by train.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -32,11 +32,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 4.7,
-    "endTime": 6.15,
-    "duration": 1.45,
-    "english": "It will be cheaper.",
-    "korean": "It will be cheaper."
+    "startTime": 3.27,
+    "endTime": 5.95,
+    "duration": 2.68,
+    "english": "If we go by bus it will be cheaper.",
+    "korean": "If we go by bus it will be cheaper."
   },
   {
     "id": "giu_ch5_004",
@@ -45,11 +45,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 6.58,
-    "endTime": 10.15,
-    "duration": 3.57,
-    "english": "How are you going to travel we're going by train?",
-    "korean": "How are you going to travel we're going by train?"
+    "startTime": 6.7,
+    "endTime": 8.46,
+    "duration": 1.76,
+    "english": "How are you going to travel?",
+    "korean": "How are you going to travel?"
   },
   {
     "id": "giu_ch5_005",
@@ -58,10 +58,10 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 10.58,
-    "endTime": 12.03,
-    "duration": 1.45,
-    "english": "If we went by bus.",
+    "startTime": 8.88,
+    "endTime": 10.54,
+    "duration": 1.66,
+    "english": "We're going by train.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -71,11 +71,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 12.08,
-    "endTime": 14.04,
-    "duration": 1.96,
-    "english": "It would be cheaper but the train.",
-    "korean": "It would be cheaper but the train."
+    "startTime": 10.74,
+    "endTime": 14.98,
+    "duration": 4.24,
+    "english": "If we went by bus it would be cheaper but the train is quicker.",
+    "korean": "If we went by bus it would be cheaper but the train is quicker."
   },
   {
     "id": "giu_ch5_007",
@@ -84,11 +84,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 14.09,
-    "endTime": 16.36,
-    "duration": 2.27,
-    "english": "Is quicker what would?",
-    "korean": "Is quicker what would?"
+    "startTime": 15.77,
+    "endTime": 17.02,
+    "duration": 1.25,
+    "english": "What would you do?",
+    "korean": "What would you do?"
   },
   {
     "id": "giu_ch5_008",
@@ -97,11 +97,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 16.41,
-    "endTime": 18.79,
-    "duration": 2.38,
-    "english": "You do if you won a lot of money.",
-    "korean": "You do if you won a lot of money."
+    "startTime": 17.06,
+    "endTime": 18.93,
+    "duration": 1.87,
+    "english": "If you won a lot of money.",
+    "korean": "If you won a lot of money."
   },
   {
     "id": "giu_ch5_009",
@@ -110,9 +110,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 19.22,
-    "endTime": 21.31,
-    "duration": 2.09,
+    "startTime": 19.38,
+    "endTime": 21.74,
+    "duration": 2.36,
     "english": "If there was an election tomorrow.",
     "korean": "만약 그렇다면..."
   },
@@ -123,10 +123,10 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 21.74,
-    "endTime": 24.4,
-    "duration": 2.66,
-    "english": "Who would you vote for I think?",
+    "startTime": 21.91,
+    "endTime": 23.51,
+    "duration": 1.6,
+    "english": "Who would you vote for?",
     "korean": "누구인가요?"
   },
   {
@@ -136,11 +136,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 24.45,
-    "endTime": 26.23,
-    "duration": 1.78,
-    "english": "I left my watch at your house.",
-    "korean": "I left my watch at your house."
+    "startTime": 23.88,
+    "endTime": 26.59,
+    "duration": 2.71,
+    "english": "I think I left my watch at your house.",
+    "korean": "I think I left my watch at your house."
   },
   {
     "id": "giu_ch5_012",
@@ -149,9 +149,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 26.54,
-    "endTime": 27.73,
-    "duration": 1.19,
+    "startTime": 26.73,
+    "endTime": 27.83,
+    "duration": 1.1,
     "english": "If you find it.",
     "korean": "만약 그렇다면..."
   },
@@ -162,9 +162,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 27.78,
-    "endTime": 28.95,
-    "duration": 1.17,
+    "startTime": 27.91,
+    "endTime": 29.09,
+    "duration": 1.18,
     "english": "Can you call me?",
     "korean": "Can you call me?"
   },
@@ -175,9 +175,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 29.38,
+    "startTime": 29.57,
     "endTime": 32.07,
-    "duration": 2.69,
+    "duration": 2.5,
     "english": "If you found a wallet in the street.",
     "korean": "만약 그렇다면..."
   },
@@ -188,11 +188,11 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 32.5,
-    "endTime": 36.13,
-    "duration": 3.63,
-    "english": "What would you do with it I'd be very scared?",
-    "korean": "What would you do with it I'd be very scared?"
+    "startTime": 32.62,
+    "endTime": 34.27,
+    "duration": 1.65,
+    "english": "What would you do with it?",
+    "korean": "What would you do with it?"
   },
   {
     "id": "giu_ch5_016",
@@ -201,10 +201,10 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 36.18,
-    "endTime": 38.35,
-    "duration": 2.17,
-    "english": "If somebody pointed a gun at me.",
+    "startTime": 35.05,
+    "endTime": 38.53,
+    "duration": 3.48,
+    "english": "I'd be very scared if somebody pointed a gun at me.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -214,9 +214,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 38.78,
-    "endTime": 40.39,
-    "duration": 1.61,
+    "startTime": 38.98,
+    "endTime": 40.86,
+    "duration": 1.88,
     "english": "If we went by bus.",
     "korean": "만약 그렇다면..."
   },
@@ -227,9 +227,9 @@
     "unitTitle": "Unit 1: Introduction to conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 40.7,
-    "endTime": 42.23,
-    "duration": 1.53,
+    "startTime": 40.94,
+    "endTime": 42.37,
+    "duration": 1.43,
     "english": "It would be cheaper.",
     "korean": "It would be cheaper."
   },
@@ -240,9 +240,9 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 42.66,
-    "endTime": 43.75,
-    "duration": 1.09,
+    "startTime": 42.86,
+    "endTime": 43.94,
+    "duration": 1.08,
     "english": "I would be grateful.",
     "korean": "I would be grateful."
   },
@@ -253,9 +253,9 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 43.8,
-    "endTime": 47.31,
-    "duration": 3.51,
+    "startTime": 43.98,
+    "endTime": 47.3,
+    "duration": 3.32,
     "english": "If you would let me know your decision as soon as possible.",
     "korean": "만약 그렇다면..."
   },
@@ -266,11 +266,11 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 47.74,
-    "endTime": 48.89,
-    "duration": 1.15,
-    "english": "What would you do?",
-    "korean": "What would you do?"
+    "startTime": 47.85,
+    "endTime": 51.35,
+    "duration": 3.5,
+    "english": "What would you do if you were bitten by a snake?",
+    "korean": "What would you do if you were bitten by a snake?"
   },
   {
     "id": "giu_ch5_022",
@@ -279,10 +279,10 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 48.94,
-    "endTime": 54.79,
-    "duration": 5.85,
-    "english": "If you were bitten by a snake I'm not going to bed yet I'm not.",
+    "startTime": 51.96,
+    "endTime": 55.57,
+    "duration": 3.61,
+    "english": "I'm not going to bed yet I'm not tired.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -292,11 +292,11 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 54.84,
-    "endTime": 57.39,
-    "duration": 2.55,
-    "english": "Tired if I went to bed now.",
-    "korean": "Tired if I went to bed now."
+    "startTime": 56.17,
+    "endTime": 57.72,
+    "duration": 1.55,
+    "english": "If I went to bed now.",
+    "korean": "If I went to bed now."
   },
   {
     "id": "giu_ch5_024",
@@ -305,11 +305,11 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 57.62,
-    "endTime": 59.8,
-    "duration": 2.18,
-    "english": "I wouldn't sleep would.",
-    "korean": "I wouldn't sleep would."
+    "startTime": 57.93,
+    "endTime": 59.06,
+    "duration": 1.13,
+    "english": "I wouldn't sleep.",
+    "korean": "I wouldn't sleep."
   },
   {
     "id": "giu_ch5_025",
@@ -318,11 +318,11 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 59.85,
-    "endTime": 61.83,
-    "duration": 1.98,
-    "english": "You mind if I used your phone.",
-    "korean": "You mind if I used your phone."
+    "startTime": 59.66,
+    "endTime": 62.09,
+    "duration": 2.43,
+    "english": "Would you mind if I used your phone?",
+    "korean": "Would you mind if I used your phone?"
   },
   {
     "id": "giu_ch5_026",
@@ -331,10 +331,10 @@
     "unitTitle": "Unit 2: First and second conditionals",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 62.26,
-    "endTime": 63.83,
-    "duration": 1.57,
-    "english": "If I won a lot of money.",
+    "startTime": 62.59,
+    "endTime": 66.19,
+    "duration": 3.6,
+    "english": "If I won a lot of money I might buy a house.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -344,11 +344,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 64.26,
-    "endTime": 66.03,
-    "duration": 1.77,
-    "english": "I might buy a house.",
-    "korean": "I might buy a house."
+    "startTime": 66.72,
+    "endTime": 68.42,
+    "duration": 1.7,
+    "english": "If it stopped raining.",
+    "korean": "If it stopped raining."
   },
   {
     "id": "giu_ch5_028",
@@ -357,10 +357,10 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 66.46,
-    "endTime": 67.87,
-    "duration": 1.41,
-    "english": "If it stopped raining.",
+    "startTime": 68.56,
+    "endTime": 69.85,
+    "duration": 1.29,
+    "english": "We could go out.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -370,11 +370,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 68.3,
-    "endTime": 73.79,
-    "duration": 5.49,
-    "english": "We could go out.",
-    "korean": "We could go out."
+    "startTime": 74.53,
+    "endTime": 76.17,
+    "duration": 1.64,
+    "english": "If I knew his number.",
+    "korean": "If I knew his number."
   },
   {
     "id": "giu_ch5_030",
@@ -383,10 +383,10 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 74.22,
-    "endTime": 75.71,
-    "duration": 1.49,
-    "english": "If I knew his number.",
+    "startTime": 76.24,
+    "endTime": 77.61,
+    "duration": 1.37,
+    "english": "I would phone him.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -396,11 +396,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 75.98,
-    "endTime": 77.47,
-    "duration": 1.49,
-    "english": "I would phone him.",
-    "korean": "I would phone him."
+    "startTime": 78.22,
+    "endTime": 79.19,
+    "duration": 0.97,
+    "english": "There are many things.",
+    "korean": "There are many things."
   },
   {
     "id": "giu_ch5_032",
@@ -409,11 +409,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 77.9,
-    "endTime": 79.96,
-    "duration": 2.06,
-    "english": "There are many things I'd like to do.",
-    "korean": "There are many things I'd like to do."
+    "startTime": 79.23,
+    "endTime": 81.77,
+    "duration": 2.54,
+    "english": "I'd like to do if I had more time.",
+    "korean": "I'd like to do if I had more time."
   },
   {
     "id": "giu_ch5_033",
@@ -422,10 +422,10 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 80.01,
-    "endTime": 81.47,
-    "duration": 1.46,
-    "english": "If I had more time.",
+    "startTime": 82.24,
+    "endTime": 82.96,
+    "duration": 0.72,
+    "english": "If I didn't want.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -435,10 +435,10 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 81.9,
-    "endTime": 83.91,
-    "duration": 2.01,
-    "english": "If I didn't want to go to the party.",
+    "startTime": 83.0,
+    "endTime": 84.43,
+    "duration": 1.43,
+    "english": "To go to the party.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -448,11 +448,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 84.22,
-    "endTime": 86.57,
-    "duration": 2.35,
-    "english": "I wouldn't go we wouldn't.",
-    "korean": "I wouldn't go we wouldn't."
+    "startTime": 84.53,
+    "endTime": 85.65,
+    "duration": 1.12,
+    "english": "I wouldn't go.",
+    "korean": "I wouldn't go."
   },
   {
     "id": "giu_ch5_036",
@@ -461,11 +461,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 86.62,
-    "endTime": 88.75,
-    "duration": 2.13,
-    "english": "Have any money if we didn't work.",
-    "korean": "Have any money if we didn't work."
+    "startTime": 86.25,
+    "endTime": 88.97,
+    "duration": 2.72,
+    "english": "We wouldn't have any money if we didn't work.",
+    "korean": "We wouldn't have any money if we didn't work."
   },
   {
     "id": "giu_ch5_037",
@@ -474,9 +474,9 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 89.18,
-    "endTime": 90.87,
-    "duration": 1.69,
+    "startTime": 89.56,
+    "endTime": 91.36,
+    "duration": 1.8,
     "english": "If you were in my position.",
     "korean": "만약 그렇다면..."
   },
@@ -487,11 +487,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 91.3,
-    "endTime": 93.6,
-    "duration": 2.3,
-    "english": "What would you do it's a Pity?",
-    "korean": "What would you do it's a Pity?"
+    "startTime": 91.68,
+    "endTime": 92.71,
+    "duration": 1.03,
+    "english": "What would you do?",
+    "korean": "What would you do?"
   },
   {
     "id": "giu_ch5_039",
@@ -500,11 +500,11 @@
     "unitTitle": "Unit 3: Hypothetical future scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 93.65,
-    "endTime": 95.4,
-    "duration": 1.75,
-    "english": "He can't drive it.",
-    "korean": "He can't drive it."
+    "startTime": 93.19,
+    "endTime": 95.13,
+    "duration": 1.94,
+    "english": "It's a Pity he can't drive.",
+    "korean": "It's a Pity he can't drive."
   },
   {
     "id": "giu_ch5_040",
@@ -513,11 +513,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 95.45,
-    "endTime": 96.57,
-    "duration": 1.12,
-    "english": "Would be useful if he?",
-    "korean": "Would be useful if he?"
+    "startTime": 95.37,
+    "endTime": 97.23,
+    "duration": 1.86,
+    "english": "It would be useful if he could.",
+    "korean": "It would be useful if he could."
   },
   {
     "id": "giu_ch5_041",
@@ -526,11 +526,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 96.62,
-    "endTime": 100.23,
-    "duration": 3.61,
-    "english": "Could I wish I knew Paul's phone number?",
-    "korean": "Could I wish I knew Paul's phone number?"
+    "startTime": 97.82,
+    "endTime": 100.53,
+    "duration": 2.71,
+    "english": "I wish I knew Paul's phone number.",
+    "korean": "I wish I knew Paul's phone number."
   },
   {
     "id": "giu_ch5_042",
@@ -539,11 +539,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 100.66,
-    "endTime": 101.72,
-    "duration": 1.06,
-    "english": "Do you ever wish?",
-    "korean": "Do you ever wish?"
+    "startTime": 101.11,
+    "endTime": 102.95,
+    "duration": 1.84,
+    "english": "Do you ever wish you could fly?",
+    "korean": "Do you ever wish you could fly?"
   },
   {
     "id": "giu_ch5_043",
@@ -552,11 +552,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 101.77,
-    "endTime": 104.99,
-    "duration": 3.22,
-    "english": "You could fly it rains a lot here.",
-    "korean": "You could fly it rains a lot here."
+    "startTime": 103.52,
+    "endTime": 105.31,
+    "duration": 1.79,
+    "english": "It rains a lot here.",
+    "korean": "It rains a lot here."
   },
   {
     "id": "giu_ch5_044",
@@ -565,11 +565,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 105.42,
-    "endTime": 109.91,
-    "duration": 4.49,
-    "english": "I wish it didn't rain so much it's very crowded here.",
-    "korean": "I wish it didn't rain so much it's very crowded here."
+    "startTime": 105.84,
+    "endTime": 107.76,
+    "duration": 1.92,
+    "english": "I wish it didn't rain so much.",
+    "korean": "I wish it didn't rain so much."
   },
   {
     "id": "giu_ch5_045",
@@ -578,11 +578,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 110.02,
-    "endTime": 112.35,
-    "duration": 2.33,
-    "english": "I wish there weren't so many people.",
-    "korean": "I wish there weren't so many people."
+    "startTime": 108.41,
+    "endTime": 110.16,
+    "duration": 1.75,
+    "english": "It's very crowded here.",
+    "korean": "It's very crowded here."
   },
   {
     "id": "giu_ch5_046",
@@ -591,11 +591,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 112.78,
-    "endTime": 113.68,
-    "duration": 0.9,
-    "english": "I wish I didn't.",
-    "korean": "I wish I didn't."
+    "startTime": 110.42,
+    "endTime": 112.43,
+    "duration": 2.01,
+    "english": "I wish there weren't so many people.",
+    "korean": "I wish there weren't so many people."
   },
   {
     "id": "giu_ch5_047",
@@ -604,11 +604,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 113.73,
-    "endTime": 116.31,
-    "duration": 2.58,
-    "english": "Have to work tomorrow but unfortunately.",
-    "korean": "Have to work tomorrow but unfortunately."
+    "startTime": 113.1,
+    "endTime": 115.47,
+    "duration": 2.37,
+    "english": "I wish I didn't have to work tomorrow.",
+    "korean": "I wish I didn't have to work tomorrow."
   },
   {
     "id": "giu_ch5_048",
@@ -617,11 +617,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 116.62,
-    "endTime": 118.92,
-    "duration": 2.3,
-    "english": "I do if I.",
-    "korean": "I do if I."
+    "startTime": 115.6,
+    "endTime": 117.52,
+    "duration": 1.92,
+    "english": "But unfortunately I do.",
+    "korean": "But unfortunately I do."
   },
   {
     "id": "giu_ch5_049",
@@ -630,11 +630,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 118.97,
-    "endTime": 120.4,
-    "duration": 1.43,
-    "english": "Were you I wouldn't buy?",
-    "korean": "Were you I wouldn't buy?"
+    "startTime": 118.69,
+    "endTime": 121.17,
+    "duration": 2.48,
+    "english": "If I were you I wouldn't buy that coat.",
+    "korean": "If I were you I wouldn't buy that coat."
   },
   {
     "id": "giu_ch5_050",
@@ -643,11 +643,11 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 120.45,
-    "endTime": 123.15,
-    "duration": 2.7,
-    "english": "That coat I'd go for a walk.",
-    "korean": "That coat I'd go for a walk."
+    "startTime": 122.11,
+    "endTime": 123.48,
+    "duration": 1.37,
+    "english": "I'd go for a walk.",
+    "korean": "I'd go for a walk."
   },
   {
     "id": "giu_ch5_051",
@@ -656,9 +656,9 @@
     "unitTitle": "Unit 4: Expressing wishes and regrets",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 123.22,
-    "endTime": 125.03,
-    "duration": 1.81,
+    "startTime": 123.52,
+    "endTime": 125.29,
+    "duration": 1.77,
     "english": "If it weren't so cold.",
     "korean": "만약 그렇다면..."
   },
@@ -669,9 +669,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 125.46,
-    "endTime": 126.95,
-    "duration": 1.49,
+    "startTime": 125.89,
+    "endTime": 127.21,
+    "duration": 1.32,
     "english": "I wish you were here.",
     "korean": "I wish you were here."
   },
@@ -682,9 +682,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 127.38,
-    "endTime": 128.63,
-    "duration": 1.25,
+    "startTime": 127.84,
+    "endTime": 128.9,
+    "duration": 1.06,
     "english": "If I were rich.",
     "korean": "만약 그렇다면..."
   },
@@ -695,9 +695,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 128.82,
-    "endTime": 130.87,
-    "duration": 2.05,
+    "startTime": 128.94,
+    "endTime": 130.68,
+    "duration": 1.74,
     "english": "I would travel a lot.",
     "korean": "I would travel a lot."
   },
@@ -708,9 +708,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 131.3,
-    "endTime": 132.45,
-    "duration": 1.15,
+    "startTime": 131.72,
+    "endTime": 132.59,
+    "duration": 0.87,
     "english": "Who would you ask?",
     "korean": "누구인가요?"
   },
@@ -721,9 +721,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 132.5,
-    "endTime": 133.91,
-    "duration": 1.41,
+    "startTime": 132.64,
+    "endTime": 134.15,
+    "duration": 1.51,
     "english": "If you needed help.",
     "korean": "만약 그렇다면..."
   },
@@ -734,9 +734,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 134.34,
-    "endTime": 136.67,
-    "duration": 2.33,
+    "startTime": 134.78,
+    "endTime": 136.81,
+    "duration": 2.03,
     "english": "I wish I had something to read.",
     "korean": "I wish I had something to read."
   },
@@ -747,9 +747,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 137.1,
-    "endTime": 138.97,
-    "duration": 1.87,
+    "startTime": 137.56,
+    "endTime": 139.1,
+    "duration": 1.54,
     "english": "She could get a better job.",
     "korean": "She could get a better job."
   },
@@ -760,9 +760,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 139.02,
-    "endTime": 140.87,
-    "duration": 1.85,
+    "startTime": 139.14,
+    "endTime": 141.11,
+    "duration": 1.97,
     "english": "If she could speak English.",
     "korean": "만약 그렇다면..."
   },
@@ -773,11 +773,11 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 141.3,
-    "endTime": 142.55,
-    "duration": 1.25,
-    "english": "I wish I could help.",
-    "korean": "I wish I could help."
+    "startTime": 141.71,
+    "endTime": 142.94,
+    "duration": 1.23,
+    "english": "I wish I could help you.",
+    "korean": "I wish I could help you."
   },
   {
     "id": "giu_ch5_061",
@@ -786,11 +786,11 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 146.62,
-    "endTime": 148.44,
-    "duration": 1.82,
-    "english": "You if I'd known.",
-    "korean": "You if I'd known."
+    "startTime": 148.06,
+    "endTime": 148.59,
+    "duration": 0.53,
+    "english": "If I'd known.",
+    "korean": "If I'd known."
   },
   {
     "id": "giu_ch5_062",
@@ -799,9 +799,9 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 148.49,
-    "endTime": 149.51,
-    "duration": 1.02,
+    "startTime": 148.64,
+    "endTime": 149.92,
+    "duration": 1.28,
     "english": "You were in hospital.",
     "korean": "You were in hospital."
   },
@@ -812,11 +812,11 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 150.02,
-    "endTime": 151.51,
-    "duration": 1.49,
-    "english": "I would have gone to see.",
-    "korean": "I would have gone to see."
+    "startTime": 150.5,
+    "endTime": 152.13,
+    "duration": 1.63,
+    "english": "I would have gone to see you.",
+    "korean": "I would have gone to see you."
   },
   {
     "id": "giu_ch5_064",
@@ -825,11 +825,11 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 151.82,
-    "endTime": 153.72,
-    "duration": 1.9,
-    "english": "You I didn't see.",
-    "korean": "You I didn't see."
+    "startTime": 153.26,
+    "endTime": 154.63,
+    "duration": 1.37,
+    "english": "I didn't see you when you passed.",
+    "korean": "I didn't see you when you passed."
   },
   {
     "id": "giu_ch5_065",
@@ -838,11 +838,11 @@
     "unitTitle": "Unit 5: Advanced hypothetical scenarios",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 153.77,
-    "endTime": 155.39,
-    "duration": 1.62,
-    "english": "You when you passed me in the street.",
-    "korean": "You when you passed me in the street."
+    "startTime": 154.67,
+    "endTime": 155.66,
+    "duration": 0.99,
+    "english": "Me in the street.",
+    "korean": "Me in the street."
   },
   {
     "id": "giu_ch5_066",
@@ -851,10 +851,10 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 155.78,
-    "endTime": 157.72,
-    "duration": 1.94,
-    "english": "If I'd seen you of course.",
+    "startTime": 156.28,
+    "endTime": 157.26,
+    "duration": 0.98,
+    "english": "If I'd seen you.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -864,11 +864,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 157.77,
-    "endTime": 158.91,
-    "duration": 1.14,
-    "english": "I would have said hello.",
-    "korean": "I would have said hello."
+    "startTime": 157.59,
+    "endTime": 159.22,
+    "duration": 1.63,
+    "english": "Of course I would have said hello.",
+    "korean": "Of course I would have said hello."
   },
   {
     "id": "giu_ch5_068",
@@ -877,9 +877,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 159.34,
-    "endTime": 161.31,
-    "duration": 1.97,
+    "startTime": 159.78,
+    "endTime": 161.68,
+    "duration": 1.9,
     "english": "I didn't go out last night.",
     "korean": "I didn't go out last night."
   },
@@ -890,9 +890,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 161.58,
-    "endTime": 162.64,
-    "duration": 1.06,
+    "startTime": 162.08,
+    "endTime": 162.72,
+    "duration": 0.64,
     "english": "I would have gone out.",
     "korean": "I would have gone out."
   },
@@ -903,9 +903,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 162.69,
-    "endTime": 164.79,
-    "duration": 2.1,
+    "startTime": 162.77,
+    "endTime": 164.72,
+    "duration": 1.95,
     "english": "If I hadn't been so tired.",
     "korean": "만약 그렇다면..."
   },
@@ -916,9 +916,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 165.22,
-    "endTime": 166.44,
-    "duration": 1.22,
+    "startTime": 165.75,
+    "endTime": 166.59,
+    "duration": 0.84,
     "english": "If he had been looking.",
     "korean": "만약 그렇다면..."
   },
@@ -929,9 +929,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 166.49,
-    "endTime": 167.47,
-    "duration": 0.98,
+    "startTime": 166.64,
+    "endTime": 167.86,
+    "duration": 1.22,
     "english": "Where he was going?",
     "korean": "어디에 있나요?"
   },
@@ -942,11 +942,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 167.7,
-    "endTime": 170.88,
-    "duration": 3.18,
-    "english": "He wouldn't have walked into the wall The View.",
-    "korean": "He wouldn't have walked into the wall The View."
+    "startTime": 168.25,
+    "endTime": 170.16,
+    "duration": 1.91,
+    "english": "He wouldn't have walked into the wall.",
+    "korean": "He wouldn't have walked into the wall."
   },
   {
     "id": "giu_ch5_074",
@@ -955,11 +955,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 170.93,
-    "endTime": 172.68,
-    "duration": 1.75,
-    "english": "Was wonderful if I'd?",
-    "korean": "Was wonderful if I'd?"
+    "startTime": 170.79,
+    "endTime": 172.16,
+    "duration": 1.37,
+    "english": "The View was wonderful.",
+    "korean": "The View was wonderful."
   },
   {
     "id": "giu_ch5_075",
@@ -968,11 +968,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 172.73,
-    "endTime": 173.76,
-    "duration": 1.03,
-    "english": "Had a camera with me.",
-    "korean": "Had a camera with me."
+    "startTime": 172.2,
+    "endTime": 175.64,
+    "duration": 3.44,
+    "english": "If I'd had a camera with me I would have taken some pictures.",
+    "korean": "If I'd had a camera with me I would have taken some pictures."
   },
   {
     "id": "giu_ch5_076",
@@ -981,11 +981,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 173.81,
-    "endTime": 177.59,
-    "duration": 3.78,
-    "english": "I would have taken some pictures I'm not hungry.",
-    "korean": "I would have taken some pictures I'm not hungry."
+    "startTime": 176.94,
+    "endTime": 177.95,
+    "duration": 1.01,
+    "english": "I'm not hungry.",
+    "korean": "I'm not hungry."
   },
   {
     "id": "giu_ch5_077",
@@ -994,9 +994,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 178.02,
-    "endTime": 179.11,
-    "duration": 1.09,
+    "startTime": 178.5,
+    "endTime": 179.41,
+    "duration": 0.91,
     "english": "If I was hungry.",
     "korean": "만약 그렇다면..."
   },
@@ -1007,9 +1007,9 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 179.22,
-    "endTime": 180.47,
-    "duration": 1.25,
+    "startTime": 179.46,
+    "endTime": 180.98,
+    "duration": 1.52,
     "english": "I would eat something.",
     "korean": "I would eat something."
   },
@@ -1020,11 +1020,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 180.9,
-    "endTime": 183.28,
-    "duration": 2.38,
-    "english": "I wasn't hungry if I.",
-    "korean": "I wasn't hungry if I."
+    "startTime": 181.45,
+    "endTime": 182.69,
+    "duration": 1.24,
+    "english": "I wasn't hungry.",
+    "korean": "I wasn't hungry."
   },
   {
     "id": "giu_ch5_080",
@@ -1033,11 +1033,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 183.33,
-    "endTime": 184.4,
-    "duration": 1.07,
-    "english": "Had been hungry I.",
-    "korean": "Had been hungry I."
+    "startTime": 183.28,
+    "endTime": 184.19,
+    "duration": 0.91,
+    "english": "If I had been hungry.",
+    "korean": "If I had been hungry."
   },
   {
     "id": "giu_ch5_081",
@@ -1046,11 +1046,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 184.45,
-    "endTime": 186.11,
-    "duration": 1.66,
-    "english": "Would have eaten something?",
-    "korean": "Would have eaten something?"
+    "startTime": 184.23,
+    "endTime": 185.85,
+    "duration": 1.62,
+    "english": "I would have eaten something.",
+    "korean": "I would have eaten something."
   },
   {
     "id": "giu_ch5_082",
@@ -1059,10 +1059,10 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 186.54,
-    "endTime": 187.49,
-    "duration": 0.95,
-    "english": "If I had seen.",
+    "startTime": 187.06,
+    "endTime": 188.17,
+    "duration": 1.11,
+    "english": "If I had seen you.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -1072,11 +1072,11 @@
     "unitTitle": "Unit 6: Third conditional structures",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 187.54,
-    "endTime": 189.67,
-    "duration": 2.13,
-    "english": "You I would have said hello.",
-    "korean": "You I would have said hello."
+    "startTime": 188.21,
+    "endTime": 189.88,
+    "duration": 1.67,
+    "english": "I would have said hello.",
+    "korean": "I would have said hello."
   },
   {
     "id": "giu_ch5_084",
@@ -1085,10 +1085,10 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 190.1,
-    "endTime": 191.84,
-    "duration": 1.74,
-    "english": "If I'd seen you I'd.",
+    "startTime": 190.65,
+    "endTime": 191.55,
+    "duration": 0.9,
+    "english": "If I'd seen you.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -1098,11 +1098,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 191.89,
-    "endTime": 194.84,
-    "duration": 2.95,
-    "english": "Have said hello I wish I'd known.",
-    "korean": "Have said hello I wish I'd known."
+    "startTime": 191.59,
+    "endTime": 193.01,
+    "duration": 1.42,
+    "english": "I'd have said hello.",
+    "korean": "I'd have said hello."
   },
   {
     "id": "giu_ch5_086",
@@ -1111,11 +1111,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 194.89,
-    "endTime": 196.15,
-    "duration": 1.26,
-    "english": "That Gary was ill.",
-    "korean": "That Gary was ill."
+    "startTime": 194.32,
+    "endTime": 196.5,
+    "duration": 2.18,
+    "english": "I wish I'd known that Gary was ill.",
+    "korean": "I wish I'd known that Gary was ill."
   },
   {
     "id": "giu_ch5_087",
@@ -1124,9 +1124,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 196.46,
-    "endTime": 198.23,
-    "duration": 1.77,
+    "startTime": 197.04,
+    "endTime": 198.51,
+    "duration": 1.47,
     "english": "I would have gone to see him.",
     "korean": "I would have gone to see him."
   },
@@ -1137,11 +1137,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 198.62,
-    "endTime": 200.68,
-    "duration": 2.06,
-    "english": "I feel sick I wish.",
-    "korean": "I feel sick I wish."
+    "startTime": 199.16,
+    "endTime": 200.19,
+    "duration": 1.03,
+    "english": "I feel sick.",
+    "korean": "I feel sick."
   },
   {
     "id": "giu_ch5_089",
@@ -1150,11 +1150,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 200.73,
-    "endTime": 202.51,
-    "duration": 1.78,
-    "english": "I hadn't eaten so much cake.",
-    "korean": "I hadn't eaten so much cake."
+    "startTime": 200.27,
+    "endTime": 202.41,
+    "duration": 2.14,
+    "english": "I wish I hadn't eaten so much cake.",
+    "korean": "I wish I hadn't eaten so much cake."
   },
   {
     "id": "giu_ch5_090",
@@ -1163,11 +1163,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 202.94,
-    "endTime": 207.28,
-    "duration": 4.34,
-    "english": "Do you wish you'd studied science instead of languages the weather?",
-    "korean": "Do you wish you'd studied science instead of languages the weather?"
+    "startTime": 203.62,
+    "endTime": 206.17,
+    "duration": 2.55,
+    "english": "Do you wish you'd studied science instead of languages?",
+    "korean": "Do you wish you'd studied science instead of languages?"
   },
   {
     "id": "giu_ch5_091",
@@ -1176,11 +1176,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 207.33,
-    "endTime": 208.36,
-    "duration": 1.03,
-    "english": "Was cold when we?",
-    "korean": "Was cold when we?"
+    "startTime": 207.31,
+    "endTime": 208.02,
+    "duration": 0.71,
+    "english": "The weather was cold.",
+    "korean": "The weather was cold."
   },
   {
     "id": "giu_ch5_092",
@@ -1189,11 +1189,11 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 208.41,
-    "endTime": 209.8,
-    "duration": 1.39,
-    "english": "Were on holiday I?",
-    "korean": "Were on holiday I?"
+    "startTime": 208.06,
+    "endTime": 209.61,
+    "duration": 1.55,
+    "english": "When we were on holiday I?",
+    "korean": "When we were on holiday I?"
   },
   {
     "id": "giu_ch5_093",
@@ -1202,9 +1202,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 209.85,
-    "endTime": 211.47,
-    "duration": 1.62,
+    "startTime": 210.09,
+    "endTime": 211.41,
+    "duration": 1.32,
     "english": "I wish it had been warmer.",
     "korean": "I wish it had been warmer."
   },
@@ -1215,9 +1215,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 211.9,
-    "endTime": 214.15,
-    "duration": 2.25,
+    "startTime": 212.56,
+    "endTime": 214.3,
+    "duration": 1.74,
     "english": "If I'd gone to the party last night.",
     "korean": "만약 그렇다면..."
   },
@@ -1228,9 +1228,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 214.2,
-    "endTime": 215.83,
-    "duration": 1.63,
+    "startTime": 214.34,
+    "endTime": 216.08,
+    "duration": 1.74,
     "english": "I would be tired now.",
     "korean": "I would be tired now."
   },
@@ -1241,9 +1241,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 216.26,
-    "endTime": 218.41,
-    "duration": 2.15,
+    "startTime": 216.91,
+    "endTime": 218.59,
+    "duration": 1.68,
     "english": "If I'd gone to the party last night.",
     "korean": "만약 그렇다면..."
   },
@@ -1254,9 +1254,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 218.46,
-    "endTime": 220.55,
-    "duration": 2.09,
+    "startTime": 218.63,
+    "endTime": 220.3,
+    "duration": 1.67,
     "english": "I would have met lots of people.",
     "korean": "I would have met lots of people."
   },
@@ -1267,9 +1267,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 220.98,
-    "endTime": 223.43,
-    "duration": 2.45,
+    "startTime": 221.61,
+    "endTime": 223.73,
+    "duration": 2.12,
     "english": "If the weather hadn't been so bad.",
     "korean": "만약 그렇다면..."
   },
@@ -1280,9 +1280,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 223.74,
-    "endTime": 226.43,
-    "duration": 2.69,
+    "startTime": 223.9,
+    "endTime": 225.31,
+    "duration": 1.41,
     "english": "We would have gone out.",
     "korean": "We would have gone out."
   },
@@ -1293,9 +1293,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 226.86,
-    "endTime": 229.03,
-    "duration": 2.17,
+    "startTime": 227.5,
+    "endTime": 229.33,
+    "duration": 1.83,
     "english": "If the weather hadn't been so bad.",
     "korean": "만약 그렇다면..."
   },
@@ -1306,9 +1306,9 @@
     "unitTitle": "Unit 7: Mixed conditional examples",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 229.3,
-    "endTime": 231.95,
-    "duration": 2.65,
+    "startTime": 229.37,
+    "endTime": 231.08,
+    "duration": 1.71,
     "english": "We could have gone out.",
     "korean": "We could have gone out."
   },
@@ -1319,9 +1319,9 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 232.38,
-    "endTime": 234.71,
-    "duration": 2.33,
+    "startTime": 233.03,
+    "endTime": 235.0,
+    "duration": 1.97,
     "english": "If the weather hadn't been so bad.",
     "korean": "만약 그렇다면..."
   },
@@ -1332,9 +1332,9 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 234.98,
-    "endTime": 236.43,
-    "duration": 1.45,
+    "startTime": 235.05,
+    "endTime": 236.62,
+    "duration": 1.57,
     "english": "We might have gone out.",
     "korean": "We might have gone out."
   },
@@ -1345,9 +1345,9 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 241.46,
-    "endTime": 242.36,
-    "duration": 0.9,
+    "startTime": 242.16,
+    "endTime": 242.5,
+    "duration": 0.34,
     "english": "I wish I knew.",
     "korean": "I wish I knew."
   },
@@ -1358,9 +1358,9 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 242.41,
-    "endTime": 243.91,
-    "duration": 1.5,
+    "startTime": 242.54,
+    "endTime": 244.13,
+    "duration": 1.59,
     "english": "What to do about the problem?",
     "korean": "What to do about the problem?"
   },
@@ -1371,11 +1371,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 244.34,
-    "endTime": 245.32,
-    "duration": 0.98,
-    "english": "I wish you didn't.",
-    "korean": "I wish you didn't."
+    "startTime": 244.95,
+    "endTime": 247.06,
+    "duration": 2.11,
+    "english": "I wish you didn't have to go so soon.",
+    "korean": "I wish you didn't have to go so soon."
   },
   {
     "id": "giu_ch5_107",
@@ -1384,11 +1384,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 245.37,
-    "endTime": 246.91,
-    "duration": 1.54,
-    "english": "Have to go so soon.",
-    "korean": "Have to go so soon."
+    "startTime": 248.18,
+    "endTime": 249.94,
+    "duration": 1.76,
+    "english": "Do you wish you lived near the sea?",
+    "korean": "Do you wish you lived near the sea?"
   },
   {
     "id": "giu_ch5_108",
@@ -1397,11 +1397,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 247.34,
-    "endTime": 252.15,
-    "duration": 4.81,
-    "english": "Do you wish you lived near the sea Jack's going on a trip to Mexico?",
-    "korean": "Do you wish you lived near the sea Jack's going on a trip to Mexico?"
+    "startTime": 250.87,
+    "endTime": 253.19,
+    "duration": 2.32,
+    "english": "Jack's going on a trip to Mexico soon.",
+    "korean": "Jack's going on a trip to Mexico soon."
   },
   {
     "id": "giu_ch5_109",
@@ -1410,11 +1410,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 252.34,
-    "endTime": 254.12,
-    "duration": 1.78,
-    "english": "Soon I wish I.",
-    "korean": "Soon I wish I."
+    "startTime": 254.06,
+    "endTime": 255.35,
+    "duration": 1.29,
+    "english": "I wish I was going too.",
+    "korean": "I wish I was going too."
   },
   {
     "id": "giu_ch5_110",
@@ -1423,11 +1423,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 254.17,
-    "endTime": 257.63,
-    "duration": 3.46,
-    "english": "Was going too I wish I'd known about the party?",
-    "korean": "Was going too I wish I'd known about the party?"
+    "startTime": 256.46,
+    "endTime": 258.02,
+    "duration": 1.56,
+    "english": "I wish I'd known about the party.",
+    "korean": "I wish I'd known about the party."
   },
   {
     "id": "giu_ch5_111",
@@ -1436,9 +1436,9 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 258.06,
-    "endTime": 258.88,
-    "duration": 0.82,
+    "startTime": 258.11,
+    "endTime": 259.0,
+    "duration": 0.89,
     "english": "I would have gone.",
     "korean": "I would have gone."
   },
@@ -1449,10 +1449,10 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 258.93,
-    "endTime": 261.0,
-    "duration": 2.07,
-    "english": "If I'd known it.",
+    "startTime": 259.04,
+    "endTime": 260.07,
+    "duration": 1.03,
+    "english": "If I'd known.",
     "korean": "만약 그렇다면..."
   },
   {
@@ -1462,11 +1462,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 261.05,
-    "endTime": 262.47,
-    "duration": 1.42,
-    "english": "Was a stupid thing to say?",
-    "korean": "Was a stupid thing to say?"
+    "startTime": 261.37,
+    "endTime": 261.78,
+    "duration": 0.41,
+    "english": "It was a stupid.",
+    "korean": "It was a stupid."
   },
   {
     "id": "giu_ch5_114",
@@ -1475,11 +1475,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 262.58,
-    "endTime": 263.79,
-    "duration": 1.21,
-    "english": "I wish I hadn't said.",
-    "korean": "I wish I hadn't said."
+    "startTime": 261.82,
+    "endTime": 262.69,
+    "duration": 0.87,
+    "english": "Thing to say.",
+    "korean": "Thing to say."
   },
   {
     "id": "giu_ch5_115",
@@ -1488,11 +1488,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 264.06,
-    "endTime": 266.12,
-    "duration": 2.06,
-    "english": "It I'm sorry I.",
-    "korean": "It I'm sorry I."
+    "startTime": 262.72,
+    "endTime": 264.31,
+    "duration": 1.59,
+    "english": "I wish I hadn't said it.",
+    "korean": "I wish I hadn't said it."
   },
   {
     "id": "giu_ch5_116",
@@ -1501,11 +1501,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 266.17,
-    "endTime": 267.84,
-    "duration": 1.67,
-    "english": "Have to go I wish.",
-    "korean": "Have to go I wish."
+    "startTime": 265.79,
+    "endTime": 267.08,
+    "duration": 1.29,
+    "english": "I'm sorry I have to go.",
+    "korean": "I'm sorry I have to go."
   },
   {
     "id": "giu_ch5_117",
@@ -1514,11 +1514,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 267.89,
-    "endTime": 268.91,
-    "duration": 1.02,
-    "english": "I could stay longer.",
-    "korean": "I could stay longer."
+    "startTime": 268.06,
+    "endTime": 269.09,
+    "duration": 1.03,
+    "english": "I wish I could stay longer I.",
+    "korean": "I wish I could stay longer I."
   },
   {
     "id": "giu_ch5_118",
@@ -1527,11 +1527,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 269.34,
-    "endTime": 271.59,
-    "duration": 2.25,
-    "english": "I I've met that man before.",
-    "korean": "I I've met that man before."
+    "startTime": 270.17,
+    "endTime": 271.83,
+    "duration": 1.66,
+    "english": "I've met that man before.",
+    "korean": "I've met that man before."
   },
   {
     "id": "giu_ch5_119",
@@ -1540,11 +1540,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 272.02,
-    "endTime": 273.21,
-    "duration": 1.19,
-    "english": "I wish I could remember.",
-    "korean": "I wish I could remember."
+    "startTime": 272.8,
+    "endTime": 274.42,
+    "duration": 1.62,
+    "english": "I wish I could remember his name.",
+    "korean": "I wish I could remember his name."
   },
   {
     "id": "giu_ch5_120",
@@ -1553,11 +1553,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 273.26,
-    "endTime": 275.73,
-    "duration": 2.47,
-    "english": "His name I hear the party.",
-    "korean": "His name I hear the party."
+    "startTime": 275.44,
+    "endTime": 277.0,
+    "duration": 1.56,
+    "english": "I hear the party was great.",
+    "korean": "I hear the party was great."
   },
   {
     "id": "giu_ch5_121",
@@ -1566,11 +1566,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 275.78,
-    "endTime": 277.72,
-    "duration": 1.94,
-    "english": "Was great I wish?",
-    "korean": "Was great I wish?"
+    "startTime": 278.01,
+    "endTime": 278.8,
+    "duration": 0.79,
+    "english": "I wish I could have gone.",
+    "korean": "I wish I could have gone."
   },
   {
     "id": "giu_ch5_122",
@@ -1579,11 +1579,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 277.77,
-    "endTime": 278.91,
-    "duration": 1.14,
-    "english": "I could have gone.",
-    "korean": "I could have gone."
+    "startTime": 280.05,
+    "endTime": 281.49,
+    "duration": 1.44,
+    "english": "I wish it would stop raining.",
+    "korean": "I wish it would stop raining."
   },
   {
     "id": "giu_ch5_123",
@@ -1592,10 +1592,10 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 279.34,
-    "endTime": 282.53,
-    "duration": 3.19,
-    "english": "I wish it would stop raining the phone.",
+    "startTime": 282.69,
+    "endTime": 283.46,
+    "duration": 0.77,
+    "english": "The phone has been ringing.",
     "korean": "비가 좀 그쳤으면 좋겠습니다."
   },
   {
@@ -1605,11 +1605,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 282.58,
-    "endTime": 284.47,
-    "duration": 1.89,
-    "english": "Has been ringing for 5 minutes.",
-    "korean": "Has been ringing for 5 minutes."
+    "startTime": 283.5,
+    "endTime": 284.97,
+    "duration": 1.47,
+    "english": "For 5 minutes.",
+    "korean": "For 5 minutes."
   },
   {
     "id": "giu_ch5_125",
@@ -1618,11 +1618,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 284.82,
-    "endTime": 286.29,
-    "duration": 1.47,
-    "english": "I wish somebody would answer.",
-    "korean": "I wish somebody would answer."
+    "startTime": 285.06,
+    "endTime": 285.82,
+    "duration": 0.76,
+    "english": "I wish somebody.",
+    "korean": "I wish somebody."
   },
   {
     "id": "giu_ch5_126",
@@ -1631,11 +1631,11 @@
     "unitTitle": "Unit 8: Regrets about the past",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 286.34,
-    "endTime": 288.0,
-    "duration": 1.66,
-    "english": "It I wish you'd.",
-    "korean": "It I wish you'd."
+    "startTime": 285.86,
+    "endTime": 287.02,
+    "duration": 1.16,
+    "english": "Would answer it?",
+    "korean": "Would answer it?"
   },
   {
     "id": "giu_ch5_127",
@@ -1644,11 +1644,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 288.05,
-    "endTime": 292.11,
-    "duration": 4.06,
-    "english": "Do something instead of just sitting and doing nothing?",
-    "korean": "Do something instead of just sitting and doing nothing?"
+    "startTime": 287.99,
+    "endTime": 291.84,
+    "duration": 3.85,
+    "english": "I wish you'd do something instead of just sitting and doing nothing.",
+    "korean": "I wish you'd do something instead of just sitting and doing nothing."
   },
   {
     "id": "giu_ch5_128",
@@ -1657,9 +1657,9 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 292.54,
-    "endTime": 294.99,
-    "duration": 2.45,
+    "startTime": 293.35,
+    "endTime": 295.1,
+    "duration": 1.75,
     "english": "I wish you wouldn't keep interrupting me.",
     "korean": "I wish you wouldn't keep interrupting me."
   },
@@ -1670,11 +1670,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 295.06,
-    "endTime": 300.29,
-    "duration": 5.23,
-    "english": "I wish Sarah would come but I wish Sarah.",
-    "korean": "I wish Sarah would come but I wish Sarah."
+    "startTime": 295.14,
+    "endTime": 297.12,
+    "duration": 1.98,
+    "english": "I wish Sarah would come.",
+    "korean": "I wish Sarah would come."
   },
   {
     "id": "giu_ch5_130",
@@ -1683,11 +1683,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 300.34,
-    "endTime": 302.21,
-    "duration": 1.87,
-    "english": "Was here now I wish?",
-    "korean": "Was here now I wish?"
+    "startTime": 298.75,
+    "endTime": 301.67,
+    "duration": 2.92,
+    "english": "But I wish Sarah was here now.",
+    "korean": "But I wish Sarah was here now."
   },
   {
     "id": "giu_ch5_131",
@@ -1696,11 +1696,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 302.26,
-    "endTime": 306.68,
-    "duration": 4.42,
-    "english": "Somebody would buy me a car but I wish.",
-    "korean": "Somebody would buy me a car but I wish."
+    "startTime": 301.7,
+    "endTime": 304.5,
+    "duration": 2.8,
+    "english": "I wish somebody would buy me a car.",
+    "korean": "I wish somebody would buy me a car."
   },
   {
     "id": "giu_ch5_132",
@@ -1709,11 +1709,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 306.73,
-    "endTime": 308.15,
-    "duration": 1.42,
-    "english": "I had a car.",
-    "korean": "I had a car."
+    "startTime": 305.57,
+    "endTime": 308.14,
+    "duration": 2.57,
+    "english": "But I wish I had a car.",
+    "korean": "But I wish I had a car."
   },
   {
     "id": "giu_ch5_133",
@@ -1722,9 +1722,9 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 308.58,
-    "endTime": 311.11,
-    "duration": 2.53,
+    "startTime": 309.4,
+    "endTime": 311.34,
+    "duration": 1.94,
     "english": "I wish you all the best in the future.",
     "korean": "I wish you all the best in the future."
   },
@@ -1735,11 +1735,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 311.54,
-    "endTime": 316.88,
-    "duration": 5.34,
-    "english": "I saw Mark before the exam and he wished me luck I'm sorry you're not.",
-    "korean": "I saw Mark before the exam and he wished me luck I'm sorry you're not."
+    "startTime": 312.34,
+    "endTime": 315.69,
+    "duration": 3.35,
+    "english": "I saw Mark before the exam and he wished me luck.",
+    "korean": "I saw Mark before the exam and he wished me luck."
   },
   {
     "id": "giu_ch5_135",
@@ -1748,11 +1748,11 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 316.93,
-    "endTime": 319.63,
-    "duration": 2.7,
-    "english": "Well I hope you feel better soon.",
-    "korean": "Well I hope you feel better soon."
+    "startTime": 315.94,
+    "endTime": 319.48,
+    "duration": 3.54,
+    "english": "I'm sorry you're not well I hope you feel better soon.",
+    "korean": "I'm sorry you're not well I hope you feel better soon."
   },
   {
     "id": "giu_ch5_136",
@@ -1761,9 +1761,9 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 320.06,
-    "endTime": 322.43,
-    "duration": 2.37,
+    "startTime": 320.9,
+    "endTime": 322.54,
+    "duration": 1.64,
     "english": "I wish you a pleasant stay here.",
     "korean": "I wish you a pleasant stay here."
   },
@@ -1774,9 +1774,9 @@
     "unitTitle": "Unit 9: Wishes and future hopes",
     "audioFile": "audio/chapter5.m4a",
     "youtubeId": "Ebeqk6HbwXI",
-    "startTime": 322.86,
-    "endTime": 325.46,
-    "duration": 2.6,
+    "startTime": 323.66,
+    "endTime": 325.51,
+    "duration": 1.85,
     "english": "I hope you have a pleasant stay here.",
     "korean": "I hope you have a pleasant stay here."
   }

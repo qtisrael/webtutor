@@ -30,6 +30,7 @@ const MAX_RETRIES = 2;
 let nativeAudio = null;
 let currentSpeed = 1.0;
 let playbackAnimFrame = null;
+let playbackStopTimer = null;
 
 // Speech Recognition & Visualizer
 let recognition = null;
@@ -475,55 +476,93 @@ function playCurrentSentenceAudio(onFinished) {
 
     stopAudioPlayback();
 
-    // Precision audio segment boundary
+    // Precision audio segment boundary (aligned via Wav2Vec2 Forced Alignment + 5ms VAD Silence Refinement)
     const stopOffset = elements.stopOffsetSelect ? parseFloat(elements.stopOffsetSelect.value) : 0.0;
     const offsetVal = isNaN(stopOffset) ? 0.0 : stopOffset;
-    const effectiveEndTime = Math.max(item.startTime + 0.4, item.endTime - offsetVal);
 
-    // Safe lead-in buffer (extra 0.05s to ensure hardware audio ramp-up does not clip initial consonant)
-    const effectiveStartTime = Math.max(0.0, item.startTime - 0.05);
+    const effectiveStartTime = Math.max(0.0, item.startTime);
+    let effectiveEndTime = Math.max(effectiveStartTime + 0.35, item.endTime - offsetVal);
 
-    nativeAudio.currentTime = effectiveStartTime;
+    // Clamp to never encroach into the next sentence's startTime when extra tail padding is selected
+    const chapterItems = allChapterData[currentChapter] || [];
+    const idxInChapter = chapterItems.findIndex(x => x.id === item.id);
+    if (idxInChapter !== -1 && idxInChapter + 1 < chapterItems.length) {
+        const nextItem = chapterItems[idxInChapter + 1];
+        if (nextItem.startTime > item.endTime) {
+            effectiveEndTime = Math.min(effectiveEndTime, nextItem.startTime - 0.03);
+        }
+    }
+
     nativeAudio.playbackRate = currentSpeed;
+    nativeAudio.currentTime = effectiveStartTime;
 
     elements.audioPlayingIndicator.classList.remove('hidden');
     elements.micListeningIndicator.classList.add('hidden');
     startVisualizerAnimation(false);
 
-    nativeAudio.play().then(() => {
-        // High-frequency requestAnimationFrame watcher to stop cleanly before the next sentence starts
-        const checkTime = () => {
-            if (!nativeAudio || nativeAudio.paused) {
-                stopAudioPlayback();
-                return;
-            }
-
-            if (nativeAudio.currentTime >= effectiveEndTime) {
-                nativeAudio.pause();
-                stopAudioPlayback();
-                if (typeof onFinished === 'function') {
-                    onFinished();
-                }
-                return;
-            }
-
-            playbackAnimFrame = requestAnimationFrame(checkTime);
-        };
-
-        playbackAnimFrame = requestAnimationFrame(checkTime);
-    }).catch(err => {
-        console.warn('Audio play request error:', err);
+    let finishedCalled = false;
+    const finishSegment = () => {
+        if (finishedCalled) return;
+        finishedCalled = true;
         stopAudioPlayback();
         if (typeof onFinished === 'function') {
             onFinished();
         }
-    });
+    };
+
+    const startPlaybackAndWatch = () => {
+        if (finishedCalled) return;
+        nativeAudio.play().then(() => {
+            const remainingSec = Math.max(0.05, (effectiveEndTime - nativeAudio.currentTime) / currentSpeed);
+            // Background-safe timer (works even when browser tab is inactive/throttled)
+            playbackStopTimer = setTimeout(() => {
+                if (nativeAudio && !nativeAudio.paused && nativeAudio.currentTime >= effectiveEndTime - 0.03) {
+                    finishSegment();
+                }
+            }, remainingSec * 1000 + 25);
+
+            // High-frequency requestAnimationFrame watcher for sub-frame precision when tab is active
+            const checkTime = () => {
+                if (finishedCalled || !nativeAudio || nativeAudio.paused) {
+                    return;
+                }
+                if (nativeAudio.currentTime >= effectiveEndTime) {
+                    finishSegment();
+                    return;
+                }
+                playbackAnimFrame = requestAnimationFrame(checkTime);
+            };
+            playbackAnimFrame = requestAnimationFrame(checkTime);
+        }).catch(err => {
+            console.warn('Audio play request error:', err);
+            finishSegment();
+        });
+    };
+
+    // Wait briefly for M4A decoder seek completion if currently seeking to prevent initial consonant clipping
+    if (nativeAudio.seeking) {
+        let seekHandled = false;
+        const onSeeked = () => {
+            if (seekHandled) return;
+            seekHandled = true;
+            nativeAudio.removeEventListener('seeked', onSeeked);
+            startPlaybackAndWatch();
+        };
+        nativeAudio.addEventListener('seeked', onSeeked, { once: true });
+        setTimeout(onSeeked, 80);
+    } else {
+        startPlaybackAndWatch();
+    }
 }
 
 function stopAudioPlayback() {
     if (playbackAnimFrame) {
         cancelAnimationFrame(playbackAnimFrame);
         playbackAnimFrame = null;
+    }
+    if (playbackStopTimer) {
+        clearTimeout(playbackStopTimer);
+        playbackStopTimer = null;
     }
     if (nativeAudio && !nativeAudio.paused) {
         nativeAudio.pause();
