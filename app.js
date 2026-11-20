@@ -38,6 +38,15 @@ let isRecording = false;
 let audioContext = null;
 let micStream = null;
 let silenceTimer = null;
+let finalizeDebounceTimer = null;
+let handsFreeTimers = [];
+let hasEvaluatedTurn = false;
+let recordingStartTimestamp = 0;
+let accumulatedFinalTranscript = '';
+let lastInterimTranscript = '';
+let silentKeepAliveCount = 0;
+const MAX_SILENT_KEEPALIVE = 5;
+let lastErrorCode = null;
 let visualizerCanvas = null;
 let canvasCtx = null;
 let analyserNode = null;
@@ -513,13 +522,17 @@ function playCurrentSentenceAudio(onFinished) {
     const startPlaybackAndWatch = () => {
         if (finishedCalled) return;
         nativeAudio.play().then(() => {
-            const remainingSec = Math.max(0.05, (effectiveEndTime - nativeAudio.currentTime) / currentSpeed);
+            // Re-assert start time if mobile browser reset currentTime on initial metadata load
+            if (Math.abs(nativeAudio.currentTime - effectiveStartTime) > 0.35 && nativeAudio.currentTime < effectiveStartTime) {
+                try { nativeAudio.currentTime = effectiveStartTime; } catch (e) {}
+            }
+            const remainingSec = Math.max(0.05, (effectiveEndTime - effectiveStartTime) / currentSpeed);
             // Background-safe timer (works even when browser tab is inactive/throttled)
             playbackStopTimer = setTimeout(() => {
-                if (nativeAudio && !nativeAudio.paused && nativeAudio.currentTime >= effectiveEndTime - 0.03) {
+                if (nativeAudio && !nativeAudio.paused && nativeAudio.currentTime >= effectiveEndTime - 0.05) {
                     finishSegment();
                 }
-            }, remainingSec * 1000 + 25);
+            }, remainingSec * 1000 + 80);
 
             // High-frequency requestAnimationFrame watcher for sub-frame precision when tab is active
             const checkTime = () => {
@@ -539,20 +552,8 @@ function playCurrentSentenceAudio(onFinished) {
         });
     };
 
-    // Wait briefly for M4A decoder seek completion if currently seeking to prevent initial consonant clipping
-    if (nativeAudio.seeking) {
-        let seekHandled = false;
-        const onSeeked = () => {
-            if (seekHandled) return;
-            seekHandled = true;
-            nativeAudio.removeEventListener('seeked', onSeeked);
-            startPlaybackAndWatch();
-        };
-        nativeAudio.addEventListener('seeked', onSeeked, { once: true });
-        setTimeout(onSeeked, 80);
-    } else {
-        startPlaybackAndWatch();
-    }
+    // Call play() synchronously to preserve mobile (iOS Safari / Android Chrome) user gesture activation
+    startPlaybackAndWatch();
 }
 
 function stopAudioPlayback() {
@@ -576,7 +577,7 @@ function initSpeechRecognition() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
         console.warn('SpeechRecognition API not available.');
-        setMasterStatus('⚠️ 브라우저 음성 인식을 지원하지 않습니다 (Chrome/Edge 권장).');
+        setMasterStatus('⚠️ 현재 브라우저(예: iOS 크롬)는 음성 인식을 지원하지 않습니다. iOS는 Safari, Android/PC는 Chrome을 사용해주세요.');
         return;
     }
 
@@ -588,6 +589,8 @@ function initSpeechRecognition() {
 
     recognition.onstart = () => {
         isRecording = true;
+        lastErrorCode = null;
+        recordingStartTimestamp = Date.now();
         elements.micListeningIndicator.classList.remove('hidden');
         elements.audioPlayingIndicator.classList.add('hidden');
         startVisualizerAnimation(true);
@@ -595,79 +598,183 @@ function initSpeechRecognition() {
     };
 
     recognition.onresult = (event) => {
+        if (hasEvaluatedTurn) return;
+        if (isHandsFreeActive && handsFreeStep !== 'listening') return;
+
         let interim = '';
         let final = '';
 
-        for (let i = event.resultIndex; i < event.results.length; ++i) {
-            const transcript = event.results[i][0].transcript;
+        // Accumulate across all results in this recognition turn (prevents Android Chrome chunk loss)
+        for (let i = 0; i < event.results.length; ++i) {
+            const transcript = (event.results[i][0] && event.results[i][0].transcript) || '';
             if (event.results[i].isFinal) {
-                final += transcript;
+                final += ' ' + transcript;
             } else {
-                interim += transcript;
+                interim += ' ' + transcript;
             }
         }
 
-        if (final) {
+        final = final.trim();
+        interim = interim.trim();
+        const combined = (final + ' ' + interim).trim();
+
+        // Ignore empty/whitespace recognition events
+        if (!combined) return;
+
+        // Ignore ultra-short speaker/chime echo artifacts immediately after mic open (< 450ms)
+        const elapsedSinceStart = Date.now() - recordingStartTimestamp;
+        const normCombined = normalizeText(combined);
+        if (elapsedSinceStart < 450 && normCombined.length <= 2) {
+            return;
+        }
+
+        accumulatedFinalTranscript = final;
+        lastInterimTranscript = combined;
+
+        if (final && !interim) {
             elements.transcriptContent.textContent = final;
             elements.transcriptContent.style.color = "var(--text-white)";
             elements.transcriptContent.style.fontStyle = "normal";
-            evaluateSubmission(final);
-        } else if (interim) {
-            elements.transcriptContent.textContent = interim + " ...";
+
+            // Debounce final evaluation by 450ms in case mobile STT emits multiple isFinal chunks
+            clearTimeout(silenceTimer);
+            clearTimeout(finalizeDebounceTimer);
+            finalizeDebounceTimer = setTimeout(() => {
+                completeListeningAndEvaluate(accumulatedFinalTranscript || lastInterimTranscript);
+            }, 450);
+        } else {
+            elements.transcriptContent.textContent = combined + " ...";
             elements.transcriptContent.style.color = "var(--text-sub)";
 
-            // Silence timer reset: if user stops speaking for 1.2s, auto-trigger evaluation
+            // Silence timer reset: if user stops speaking for 1.4s, auto-trigger evaluation
+            clearTimeout(finalizeDebounceTimer);
             clearTimeout(silenceTimer);
             silenceTimer = setTimeout(() => {
-                if (isRecording && interim.trim()) {
-                    stopRecording();
-                    elements.transcriptContent.textContent = interim;
-                    evaluateSubmission(interim);
+                if (isRecording && lastInterimTranscript.trim()) {
+                    completeListeningAndEvaluate(lastInterimTranscript);
                 }
-            }, 1200);
+            }, 1400);
         }
     };
 
     recognition.onspeechend = () => {
-        // Speech ended, wait a tiny moment then stop
-        setTimeout(() => {
-            if (isRecording) {
-                stopRecording();
-            }
-        }, 300);
+        // Do not prematurely stopRecording() here; mobile browsers fire onspeechend on brief breaths/clicks.
+        // Instead, if we already have partial speech, let silenceTimer / onend finalize cleanly.
     };
 
     recognition.onerror = (event) => {
         console.warn('SpeechRecognition notice:', event.error);
-        stopRecording();
-        if (event.error === 'not-allowed') {
-            alert('마이크 권한이 필요합니다. 브라우저 설정에서 마이크를 허용해주세요.');
+        lastErrorCode = event.error;
+        if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+            stopRecording();
+            alert('마이크 권한이 차단되었거나 현재 브라우저에서 음성 인식이 제한되었습니다. 브라우저 마이크 권한을 확인해주세요.');
             stopHandsFreeMaster();
         } else if (event.error === 'no-speech') {
+            stopRecording();
             handleNoSpeechDetected();
+        } else if (event.error === 'aborted') {
+            // Intentional stop/abort, handled by state
+        } else {
+            stopRecording();
         }
     };
 
     recognition.onend = () => {
-        stopRecording();
+        const wasListeningHandsFree = isHandsFreeActive && handsFreeStep === 'listening';
+        const pendingText = (accumulatedFinalTranscript || lastInterimTranscript).trim();
+        isRecording = false;
+        clearTimeout(silenceTimer);
+        clearTimeout(finalizeDebounceTimer);
+        elements.micListeningIndicator.classList.add('hidden');
+        stopVisualizerAnimation();
+
+        if (hasEvaluatedTurn) return;
+
+        // If user actually spoke before mobile STT closed the session, evaluate it now
+        if (pendingText && normalizeText(pendingText).length >= 2) {
+            completeListeningAndEvaluate(pendingText);
+            return;
+        }
+
+        // If mobile browser ended recognition before user spoke (and not already handled by no-speech/not-allowed)
+        if (wasListeningHandsFree && lastErrorCode !== 'no-speech' && lastErrorCode !== 'not-allowed' && lastErrorCode !== 'service-not-allowed') {
+            handleNoSpeechDetected();
+        }
     };
 }
 
-function startRecording() {
-    if (!recognition) return;
+function completeListeningAndEvaluate(transcript) {
+    if (hasEvaluatedTurn) return;
+    const clean = (transcript || '').trim();
+    const normClean = normalizeText(clean);
+
+    // Ignore empty or single-character noise pops
+    if (!clean || normClean.length === 0) return;
+
+    const item = filteredItems[currentIndex];
+    const normTarget = item ? normalizeText(item.english) : '';
+    if (normClean.length <= 2 && normTarget.length > 5 && !normTarget.startsWith(normClean)) {
+        // Residual noise artifact; keep listening for actual speech
+        accumulatedFinalTranscript = '';
+        lastInterimTranscript = '';
+        return;
+    }
+
+    hasEvaluatedTurn = true;
+    silentKeepAliveCount = 0;
+    clearTimeout(silenceTimer);
+    clearTimeout(finalizeDebounceTimer);
+    stopRecording();
+
+    elements.transcriptContent.textContent = clean;
+    elements.transcriptContent.style.color = "var(--text-white)";
+    elements.transcriptContent.style.fontStyle = "normal";
+    evaluateSubmission(clean);
+}
+
+function startRecording(isKeepAlive = false) {
+    if (!recognition) {
+        if (isHandsFreeActive) {
+            stopHandsFreeMaster();
+            alert('현재 브라우저에서는 음성 인식(Web Speech API)을 지원하지 않습니다.\n• iPhone/iPad: Safari 브라우저를 사용해주세요.\n• Android/PC: Chrome 브라우저를 사용해주세요.');
+        }
+        return;
+    }
     if (isRecording) return;
+
+    if (!isKeepAlive) {
+        hasEvaluatedTurn = false;
+        silentKeepAliveCount = 0;
+    }
+    accumulatedFinalTranscript = '';
+    lastInterimTranscript = '';
+    lastErrorCode = null;
+    clearTimeout(silenceTimer);
+    clearTimeout(finalizeDebounceTimer);
 
     try {
         recognition.lang = 'en-GB';
         recognition.start();
     } catch (e) {
         console.warn('Recognition start exception:', e);
+        // If recognition state machine is stuck on mobile, abort and retry once after 250ms
+        try { recognition.abort(); } catch (err) {}
+        scheduleHandsFreeTimer(() => {
+            if (isHandsFreeActive && handsFreeStep === 'listening' && !isRecording && !hasEvaluatedTurn) {
+                try {
+                    recognition.start();
+                } catch (err2) {
+                    console.warn('Recognition retry failed:', err2);
+                }
+            }
+        }, 250);
     }
 }
 
 function stopRecording() {
     isRecording = false;
     clearTimeout(silenceTimer);
+    clearTimeout(finalizeDebounceTimer);
     if (recognition) {
         try { recognition.stop(); } catch (e) {}
     }
@@ -803,8 +910,17 @@ function toggleHandsFreeMaster() {
 }
 
 function startHandsFreeMaster() {
+    if (!recognition) {
+        alert('현재 브라우저에서는 음성 인식(Web Speech API)을 지원하지 않습니다.\n• iPhone/iPad: Safari 브라우저를 사용해주세요.\n• Android/PC: Chrome 브라우저를 사용해주세요.');
+        return;
+    }
+
+    // Unlock Web Audio API context synchronously during user tap gesture
+    try { getAudioContext(); } catch (e) {}
+
     isHandsFreeActive = true;
     currentRetryCount = 0;
+    silentKeepAliveCount = 0;
     elements.btnMasterHandsfree.classList.add('active');
     elements.masterIcon.textContent = '⏹️';
     elements.masterText.textContent = '핸즈프리 자동 학습 일시정지';
@@ -814,6 +930,8 @@ function startHandsFreeMaster() {
 function stopHandsFreeMaster() {
     isHandsFreeActive = false;
     handsFreeStep = 'idle';
+    hasEvaluatedTurn = false;
+    silentKeepAliveCount = 0;
     elements.btnMasterHandsfree.classList.remove('active');
     elements.masterIcon.textContent = '▶';
     elements.masterText.textContent = '핸즈프리 자동 학습 시작';
@@ -823,8 +941,21 @@ function stopHandsFreeMaster() {
     setMasterStatus('핸즈프리 학습이 일시정지되었습니다.');
 }
 
+function scheduleHandsFreeTimer(fn, delayMs) {
+    const timerId = setTimeout(() => {
+        handsFreeTimers = handsFreeTimers.filter(id => id !== timerId);
+        fn();
+    }, delayMs);
+    handsFreeTimers.push(timerId);
+    return timerId;
+}
+
 function runHandsFreeStep() {
     if (!isHandsFreeActive) return;
+
+    cancelPendingTimers();
+    stopRecording();
+    hasEvaluatedTurn = false;
 
     // Step 1: Play native British audio
     handsFreeStep = 'playing_native';
@@ -833,24 +964,25 @@ function runHandsFreeStep() {
     playCurrentSentenceAudio(() => {
         if (!isHandsFreeActive) return;
 
-        // Step 2: Play chime and start recording
+        // Step 2: Play chime and wait until chime + mobile speaker reverb completely finishes (600ms)
         handsFreeStep = 'chime';
         setMasterStatus(`🔔 말할 준비...`);
 
-        setTimeout(() => {
+        scheduleHandsFreeTimer(() => {
             if (!isHandsFreeActive) return;
             playToneChime('startSpeak');
 
-            setTimeout(() => {
+            scheduleHandsFreeTimer(() => {
                 if (!isHandsFreeActive) return;
                 handsFreeStep = 'listening';
-                startRecording();
-            }, 350);
-        }, 300);
+                startRecording(false);
+            }, 600);
+        }, 350);
     });
 }
 
 function triggerHandsFreeAutoAdvance() {
+    cancelPendingTimers();
     handsFreeStep = 'waiting_next';
     setMasterStatus(`🎉 [통과!] 1.2초 후 다음 문장으로 자동 이동합니다...`);
 
@@ -858,11 +990,11 @@ function triggerHandsFreeAutoAdvance() {
     elements.countdownNumber.textContent = "1.2s";
     elements.autoNextFill.style.width = "100%";
 
-    setTimeout(() => {
+    scheduleHandsFreeTimer(() => {
         elements.autoNextFill.style.width = "0%";
     }, 50);
 
-    setTimeout(() => {
+    scheduleHandsFreeTimer(() => {
         elements.autoNextBarWrapper.classList.add('hidden');
         if (!isHandsFreeActive) return;
 
@@ -879,45 +1011,58 @@ function triggerHandsFreeAutoAdvance() {
 }
 
 function handleHandsFreeRetry() {
+    cancelPendingTimers();
     currentRetryCount++;
-    if (currentRetryCount < MAX_RETRIES) {
-        setMasterStatus(`💡 [재시도 ${currentRetryCount}/${MAX_RETRIES}] 1초 후 원어민 발음을 다시 듣고 도전합니다...`);
-        setTimeout(() => {
+    if (currentRetryCount <= MAX_RETRIES) {
+        setMasterStatus(`💡 [재시도 ${currentRetryCount}/${MAX_RETRIES}] 1.2초 후 원어민 발음을 다시 듣고 도전합니다...`);
+        scheduleHandsFreeTimer(() => {
             if (!isHandsFreeActive) return;
             runHandsFreeStep();
-        }, 1100);
+        }, 1200);
     } else {
-        // Tried twice, advance to next sentence to keep rhythm
+        // Wait for user's voice again on the current sentence instead of skipping without passing
         currentRetryCount = 0;
-        setMasterStatus(`💪 [2회 도전 완료] 리듬을 유지하기 위해 다음 문장으로 자동 이동합니다...`);
-        setTimeout(() => {
+        setMasterStatus(`🎙️ 원어민 발음을 한 번 더 들려드립니다. 듣고 천천히 따라 말씀해주세요.`);
+        scheduleHandsFreeTimer(() => {
             if (!isHandsFreeActive) return;
-            if (currentIndex < filteredItems.length - 1) {
-                currentIndex++;
-                renderCurrentItem();
-                runHandsFreeStep();
-            } else {
-                stopHandsFreeMaster();
-            }
+            runHandsFreeStep();
         }, 1500);
     }
 }
 
 function handleNoSpeechDetected() {
-    if (isHandsFreeActive) {
-        setMasterStatus('⚠️ 음성이 감지되지 않았습니다. 원어민 발음을 한 번 더 들려드립니다.');
-        setTimeout(() => {
-            if (isHandsFreeActive) {
-                runHandsFreeStep();
-            }
-        }, 1000);
-    } else {
+    if (isHandsFreeActive && handsFreeStep === 'listening' && !hasEvaluatedTurn) {
+        silentKeepAliveCount++;
+        if (silentKeepAliveCount <= MAX_SILENT_KEEPALIVE) {
+            // Keep waiting for user's voice on mobile instead of immediately replaying audio or skipping
+            setMasterStatus(`🎙️ 음성을 기다리고 있습니다... 문장을 따라 말씀해주세요 (${silentKeepAliveCount}/${MAX_SILENT_KEEPALIVE})`);
+            scheduleHandsFreeTimer(() => {
+                if (isHandsFreeActive && handsFreeStep === 'listening' && !hasEvaluatedTurn) {
+                    startRecording(true);
+                }
+            }, 400);
+        } else {
+            // After waiting ~25s with no speech, replay native audio once and reset keep-alive counter
+            silentKeepAliveCount = 0;
+            setMasterStatus('🎧 장시간 음성이 감지되지 않아 원어민 발음을 다시 들려드립니다.');
+            scheduleHandsFreeTimer(() => {
+                if (isHandsFreeActive) {
+                    runHandsFreeStep();
+                }
+            }, 1200);
+        }
+    } else if (!isHandsFreeActive) {
         setMasterStatus('⚠️ 음성이 감지되지 않았습니다. 다시 시도해보세요.');
     }
 }
 
 function cancelPendingTimers() {
     clearTimeout(silenceTimer);
+    clearTimeout(finalizeDebounceTimer);
+    if (handsFreeTimers.length > 0) {
+        handsFreeTimers.forEach(id => clearTimeout(id));
+        handsFreeTimers = [];
+    }
     if (elements.autoNextBarWrapper) {
         elements.autoNextBarWrapper.classList.add('hidden');
     }
